@@ -190,7 +190,6 @@
 345660	RIDE: Game
 346850	Chip's Challenge 1
 346940	Shadowrun: Hong Kong - Extended Edition
-347600	Total Miner
 348180	Starship Traveller
 348300	Chip's Challenge 2
 349040	NARUTO SHIPPUDEN: Ultimate Ninja STORM 4
@@ -1053,7 +1052,6 @@
 1722840	Everdell
 1722860	Munchkin Digital
 1729050	The Fox in the Forest
-1729780	Gladiator: about to die
 1731460	LEGO® Brawls
 1733250	Turbo Kid
 1733890	Warhammer 40,000: Battle Sister
@@ -1226,7 +1224,6 @@
 2162380	Larcenauts Spectator Mode
 2164370	Slender Myth
 2165210	Nightmare
-2165690	NFL Pro Era
 2168240	Kizuna AI - Touch the Beat!
 2169570	The Lost Legends of Redwall: The Scout Anthology
 2170370	SPY×ANYA: Operation Memories
@@ -1276,7 +1273,6 @@
 2295970	UFO ROBOT GRENDIZER – The Feast of the Wolves
 2303850	Toxic Crusaders
 2305500	FAIRY TAIL: DUNGEONS
-2313930	NFL Pro Era 2
 2316960	Moorhuhn - Crazy Chicken 'Traps and Treasures'
 2316970	Moorhuhn - Crazy Chicken 'Traps and Treasures 2'
 2321780	Starship Troopers: Ultimate Bug War!
@@ -1304,6 +1300,7 @@
 2363930	Evil is Back
 2364540	Invaders
 2371630	Sword Art Online: Integral Factor
+2373360	Witchcraft Candy Hunt
 2373990	Solo Leveling: ARISE OVERDRIVE
 2374090	Asterix & Obelix: Heroes
 2383760	Monopoly Madness
@@ -1418,6 +1415,7 @@
 2730940	MyRummy®
 2736950	Willy's Wonderland - The Game
 2738630	Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition
+2743020	Melting Passion
 2753970	MARVEL Cosmic Invasion
 2759810	VR Driver School
 2760580	Mars Attracts
@@ -1526,7 +1524,6 @@
 3253030	Is It Wrong to Try to Pick Up Girls in a Dungeon? ~Fullland of Water and Light~
 3256150	Moomintroll: Winter's Warmth
 3264110	AUTO_BATTLER_RPG
-3264490	Pastopia
 3273550	Dora™: Rainforest Rescue
 3281130	World of Outlaws: Dirt Racing 24 Gold Edition
 3288920	Ed & Edda: GRAND PRIX – Racing Champions
@@ -1540,7 +1537,6 @@
 3328180	Snoopy & The Great Mystery Club
 3328480	TETRIS® THE GRAND MASTER 4 -ABSOLUTE EYE-
 3344960	夏目友人帳 ～葉月の記～
-3351570	Sandbox Survivors
 3352750	Kings of Emperor Bonaparte
 3356340	The Original Moorhuhn Hunt
 3356350	Moorhuhn 2
@@ -1559,6 +1555,7 @@
 3428090	Jaleco Sports: Bases Loaded 2
 3428880	BRIO World - Railway
 3432510	Jianghu Diary
+3447000	米姆米姆哈
 3448650	Aliens: Fireteam Elite 2
 3452280	The Solitude Project
 3462650	Creepshow
@@ -1596,9 +1593,7 @@
 3659460	Gear.Club Unlimited 3
 3669430	Twilight Imperium Digital
 3669620	Warhammer Survivors
-3675360	Tenra AI Multichat
 3679080	The Seven Deadly Sins: Origin
-3682440	Othello: Battle Royale
 3686980	Yatzi 2
 3700250	Master of Piece: Prologue
 3710360	GÖREV
@@ -1664,6 +1659,7 @@
 4224240	Jujutsu Kaisen Phantom Parade
 4282500	hololive Dreams
 4304060	SONIC PICO PARK
+4345260	Masters of Magic
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
 4434610	Hunter: The Reckoning – Deathwish
@@ -1671,6 +1667,7 @@
 4590020	Kill Source: Neon Hemorrhage
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
+4724610	Zero Hour Night
 4753420	Celestia
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor

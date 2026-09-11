@@ -2,20 +2,21 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-09-09 11:19 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-09-11 11:18 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
-**Total tracked:** 1677 apps
+**Total tracked:** 1674 apps
 
 ---
 
 ## Newly Added Since Last Check
 
-- [Gladiator: about to die](https://store.steampowered.com/app/1729780/) (AppID: 1729780)
-- [Othello: Battle Royale](https://store.steampowered.com/app/3682440/) (AppID: 3682440)
-- [Passion Bay](https://store.steampowered.com/app/4179450/) (AppID: 4179450)
-- [Kill Source: Neon Hemorrhage](https://store.steampowered.com/app/4590020/) (AppID: 4590020)
+- [Witchcraft Candy Hunt](https://store.steampowered.com/app/2373360/) (AppID: 2373360)
+- [Melting Passion](https://store.steampowered.com/app/2743020/) (AppID: 2743020)
+- [米姆米姆哈](https://store.steampowered.com/app/3447000/) (AppID: 3447000)
+- [Masters of Magic](https://store.steampowered.com/app/4345260/) (AppID: 4345260)
+- [Zero Hour Night](https://store.steampowered.com/app/4724610/) (AppID: 4724610)
 
 ---
 
