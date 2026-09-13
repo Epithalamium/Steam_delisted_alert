@@ -2,7 +2,7 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-09-11 11:18 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-09-13 11:48 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
@@ -12,11 +12,10 @@ Updated every 2 days via GitHub Actions. Last updated: **2026-09-11 11:18 UTC**
 
 ## Newly Added Since Last Check
 
-- [Witchcraft Candy Hunt](https://store.steampowered.com/app/2373360/) (AppID: 2373360)
-- [Melting Passion](https://store.steampowered.com/app/2743020/) (AppID: 2743020)
-- [米姆米姆哈](https://store.steampowered.com/app/3447000/) (AppID: 3447000)
-- [Masters of Magic](https://store.steampowered.com/app/4345260/) (AppID: 4345260)
-- [Zero Hour Night](https://store.steampowered.com/app/4724610/) (AppID: 4724610)
+- [The ultimate Math teaching game](https://store.steampowered.com/app/3018890/) (AppID: 3018890)
+- [Mournight](https://store.steampowered.com/app/3436970/) (AppID: 3436970)
+- [玄中记](https://store.steampowered.com/app/4571290/) (AppID: 4571290)
+- [Armed Snake](https://store.steampowered.com/app/4829840/) (AppID: 4829840)
 
 ---
 

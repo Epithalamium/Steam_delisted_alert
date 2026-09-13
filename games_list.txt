@@ -1415,7 +1415,6 @@
 2730940	MyRummy®
 2736950	Willy's Wonderland - The Game
 2738630	Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition
-2743020	Melting Passion
 2753970	MARVEL Cosmic Invasion
 2759810	VR Driver School
 2760580	Mars Attracts
@@ -1428,7 +1427,6 @@
 2793950	Totally Spies! - Cyber Mission
 2800080	Thief VR: Legacy of Shadow
 2800630	The Smurfs - Village Party
-2806840	Arcane Array Arena
 2807870	Darkness Ritual: Impasse
 2811580	文若九洲记：艳欲之乡
 2815070	RIDE 6
@@ -1476,6 +1474,7 @@
 3008070	Mortadelo y Filemón: Una aventura de cine - Edición original
 3010270	Warhammer 40,000: Chaos Gate – Deathwatch
 3012980	Moorhuhn Kart 4
+3018890	The ultimate Math teaching game
 3023070	BEYBLADE X XONE
 3025590	TRON: Catalyst
 3040910	Hot Wheels Let's Race: Ultimate Speed
@@ -1555,6 +1554,7 @@
 3428090	Jaleco Sports: Bases Loaded 2
 3428880	BRIO World - Railway
 3432510	Jianghu Diary
+3436970	Mournight
 3447000	米姆米姆哈
 3448650	Aliens: Fireteam Elite 2
 3452280	The Solitude Project
@@ -1659,16 +1659,16 @@
 4224240	Jujutsu Kaisen Phantom Parade
 4282500	hololive Dreams
 4304060	SONIC PICO PARK
-4345260	Masters of Magic
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
 4434610	Hunter: The Reckoning – Deathwish
 4459850	NAMCO LEGENDARY Mountains
+4571290	玄中记
 4590020	Kill Source: Neon Hemorrhage
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
-4724610	Zero Hour Night
 4753420	Celestia
 4782240	Dog Man: Bark in Action
+4829840	Armed Snake
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4902580	Jay and Silent Bob's Joint Venture
