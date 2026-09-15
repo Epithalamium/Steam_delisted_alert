@@ -1056,7 +1056,6 @@
 1733250	Turbo Kid
 1733890	Warhammer 40,000: Battle Sister
 1734270	Royal Frontier
-1735230	Stones Keeper: Prologue
 1739000	Franchise Hockey Manager 8
 1739850	Howling Village
 1740660	Miraculous: Rise of the Sphinx
@@ -1117,9 +1116,9 @@
 1886200	Chernobyl Trap
 1887730	Valley of the Dead: MalnaZidos
 1889930	Baldur's Gate: Dark Alliance II
+1890100	Ship of Heroes
 1894570	Parasight Prologue
 1894730	Asterix & Obelix XXXL : The Ram From Hibernia
-1894790	Stones Keeper: King Aurelius
 1897630	Garbage Pail Kids: Mad Mike and the Quest for Stale Gum
 1898290	LEGO® Bricktales
 1903270	Sunset World Online
@@ -1300,7 +1299,6 @@
 2363930	Evil is Back
 2364540	Invaders
 2371630	Sword Art Online: Integral Factor
-2373360	Witchcraft Candy Hunt
 2373990	Solo Leveling: ARISE OVERDRIVE
 2374090	Asterix & Obelix: Heroes
 2383760	Monopoly Madness
@@ -1565,6 +1563,7 @@
 3469230	Baki Hanma: Blood Arena
 3470930	The Grinch 2: Saving Christmas
 3472040	NBA 2K26
+3489240	Asterix & Obelix - Mission Babylon
 3493430	Set a Watch: Digital Edition
 3504560	Tomba! 2: The Evil Swine Return Special Edition
 3504570	Fear Effect
@@ -1667,8 +1666,9 @@
 4590020	Kill Source: Neon Hemorrhage
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
+4699430	The Birth Cry
 4753420	Celestia
 4782240	Dog Man: Bark in Action
-4829840	Armed Snake
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4902580	Jay and Silent Bob's Joint Venture
+5189950	Winx Club - Moonlight Quest

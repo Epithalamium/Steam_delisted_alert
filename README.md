@@ -2,7 +2,7 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-09-13 11:48 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-09-15 11:42 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
@@ -12,10 +12,10 @@ Updated every 2 days via GitHub Actions. Last updated: **2026-09-13 11:48 UTC**
 
 ## Newly Added Since Last Check
 
-- [The ultimate Math teaching game](https://store.steampowered.com/app/3018890/) (AppID: 3018890)
-- [Mournight](https://store.steampowered.com/app/3436970/) (AppID: 3436970)
-- [玄中记](https://store.steampowered.com/app/4571290/) (AppID: 4571290)
-- [Armed Snake](https://store.steampowered.com/app/4829840/) (AppID: 4829840)
+- [Ship of Heroes](https://store.steampowered.com/app/1890100/) (AppID: 1890100)
+- [Asterix & Obelix - Mission Babylon](https://store.steampowered.com/app/3489240/) (AppID: 3489240)
+- [The Birth Cry](https://store.steampowered.com/app/4699430/) (AppID: 4699430)
+- [Winx Club - Moonlight Quest](https://store.steampowered.com/app/5189950/) (AppID: 5189950)
 
 ---
 
