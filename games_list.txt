@@ -755,6 +755,7 @@
 1136380	Ultimate Fishing® Simulator 2
 1139870	The Dark Eye : Book of Heroes
 1140440	OMON Simulator
+1141510	One Fantasy Shooter
 1142710	Total War: WARHAMMER III
 1144170	Warhammer: Chaos & Conquest
 1146100	The Rising of the Shield Hero : Relive The Animation
@@ -1324,6 +1325,7 @@
 2428810	LEGO® Horizon Adventures™
 2431700	Vampire: The Masquerade - Justice
 2434050	The Sisters 2 - Road To Fame
+2436340	Yuuna and the Haunted Hot Springs The Thrilling Steamy Maze Kiwami
 2438970	Cascadia
 2438990	Ark Nova
 2440510	Forza Motorsport
@@ -1343,6 +1345,7 @@
 2477010	Ticket to Ride®
 2478330	Barbie Project Friendship™
 2479650	SpongeBob SquarePants: Titans of the Tide
+2479830	The Braves
 2483190	Forza Horizon 6
 2483220	LivingDollsRebirth
 2486740	Sledders
@@ -1658,6 +1661,7 @@
 4224240	Jujutsu Kaisen Phantom Parade
 4282500	hololive Dreams
 4304060	SONIC PICO PARK
+4345260	Masters of Magic
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
 4434610	Hunter: The Reckoning – Deathwish
@@ -1666,7 +1670,6 @@
 4590020	Kill Source: Neon Hemorrhage
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
-4699430	The Birth Cry
 4753420	Celestia
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
