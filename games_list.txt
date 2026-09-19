@@ -733,7 +733,6 @@
 1105410	Shine's Adventures 2 (Zombie Attack)
 1105420	Game of Thrones Winter is Coming
 1105730	HANGMAN
-1105960	TOGUM
 1106670	Diastone: Confusion
 1107920	8bit Pigeon Hunter
 1109690	Asterix & Obelix XXL 3  - The Crystal Menhir
@@ -755,7 +754,6 @@
 1136380	Ultimate Fishing® Simulator 2
 1139870	The Dark Eye : Book of Heroes
 1140440	OMON Simulator
-1141510	One Fantasy Shooter
 1142710	Total War: WARHAMMER III
 1144170	Warhammer: Chaos & Conquest
 1146100	The Rising of the Shield Hero : Relive The Animation
@@ -1473,6 +1471,7 @@
 3002850	FAIRY TAIL 2
 3004100	FREEDOM WARS Remastered
 3008070	Mortadelo y Filemón: Una aventura de cine - Edición original
+3008200	PAPERHEAD EP0
 3010270	Warhammer 40,000: Chaos Gate – Deathwatch
 3012980	Moorhuhn Kart 4
 3018890	The ultimate Math teaching game
