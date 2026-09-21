@@ -1482,6 +1482,7 @@
 3050640	WhereHurt
 3051490	Nicktoons & The Dice of Destiny
 3058630	Assetto Corsa EVO
+3059520	F1® 25
 3064040	Bluey's Happy Snaps
 3066920	Nuke Bomberman
 3076850	VR traffic safety with Polly
@@ -1548,6 +1549,7 @@
 3399110	Jaleco Sports: Goal!
 3399120	Jaleco Sports: Goal! 2
 3401920	Upin & Ipin Universe
+3411030	The Killer Pass: Season 1
 3417530	Panzer Dragoon Zwei: Remake
 3419690	Chicken Run: Eggstraction
 3428080	Jaleco Sports: Bases Loaded
@@ -1667,10 +1669,12 @@
 4459850	NAMCO LEGENDARY Mountains
 4571290	玄中记
 4590020	Kill Source: Neon Hemorrhage
+4658670	Re:Bloom 花精霊のぽかぽか温泉郷
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
 4753420	Celestia
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
+4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
 5189950	Winx Club - Moonlight Quest
