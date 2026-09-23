@@ -20,7 +20,7 @@
 22340	Call of Cthulhu: Dark Corners of the Earth
 24200	DC Universe Online
 26800	Braid
-31100	Wallace & Gromit Ep 1: Fright of the Bumblebees
+31100	Wallace & Gromit’s Grand Adventures
 31170	Tales of Monkey Island: Chapter 1 - Launch of the Screaming Narwhal
 31800	Nancy Drew: Danger By Design
 31810	Nancy Drew: Last Train to Blue Moon Canyon
@@ -433,7 +433,6 @@
 672310	Kingdoms of Marazia: Classic
 673880	Warhammer 40,000: Mechanicus
 673970	MuX
-674020	World War 3
 674160	Slasher VR
 675260	Batman: The Enemy Within - The Telltale Series
 676310	Deadly Zone
@@ -1096,7 +1095,6 @@
 1839950	Terminator: Dark Fate - Defiance
 1843310	FUNKO FUSION
 1844380	Warhammer Age of Sigmar: Realms of Ruin
-1845040	Panzers on the Steppe
 1846380	Need for Speed™ Unbound
 1849250	EA SPORTS™ WRC
 1850050	Alien: Rogue Incursion VR
@@ -1107,7 +1105,6 @@
 1867270	MeteoHeroes
 1867510	WrestleQuest
 1867580	Final Space - The Rescue
-1868730	Gettysburg: Fields of Valor
 1877020	Jujutsu Kaisen Cursed Clash
 1880710	Tuition Academia
 1882240	Forgotten Realms: The Archives - Collection One
@@ -1115,7 +1112,6 @@
 1886200	Chernobyl Trap
 1887730	Valley of the Dead: MalnaZidos
 1889930	Baldur's Gate: Dark Alliance II
-1890100	Ship of Heroes
 1894570	Parasight Prologue
 1894730	Asterix & Obelix XXXL : The Ram From Hibernia
 1897630	Garbage Pail Kids: Mad Mike and the Quest for Stale Gum
@@ -1669,7 +1665,6 @@
 4459850	NAMCO LEGENDARY Mountains
 4571290	玄中记
 4590020	Kill Source: Neon Hemorrhage
-4658670	Re:Bloom 花精霊のぽかぽか温泉郷
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
 4753420	Celestia
