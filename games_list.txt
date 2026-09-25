@@ -20,7 +20,7 @@
 22340	Call of Cthulhu: Dark Corners of the Earth
 24200	DC Universe Online
 26800	Braid
-31100	Wallace & Gromit’s Grand Adventures
+31100	Wallace & Gromit Ep 1: Fright of the Bumblebees
 31170	Tales of Monkey Island: Chapter 1 - Launch of the Screaming Narwhal
 31800	Nancy Drew: Danger By Design
 31810	Nancy Drew: Last Train to Blue Moon Canyon
@@ -1024,7 +1024,6 @@
 1665460	eFootball™
 1668080	Pinchcliffe Grand Prix
 1669490	Jerma & Otto: The Curse of the Late Streamer
-1673320	Survivor
 1677870	Gefragt Gejagt - Das Spiel
 1678420	Blade Runner: Enhanced Edition
 1681430	RoboCop: Rogue City
@@ -1380,6 +1379,7 @@
 2591710	Pirates of the Caribbean: Tides of War
 2596330	Micro Machines: Mini Challenge Mayhem
 2602020	The Smurfs – Dreams
+2605780	Three Kingdoms: Battle of Generals
 2617340	Terminator: Survivors
 2632490	The Lost Legends of Redwall: Feasts & Friends
 2633950	Rugrats: Adventures in Gameland
@@ -1405,6 +1405,7 @@
 2700090	Harmony in the Wild
 2706370	AC Sailing
 2723620	DunJumb
+2729600	Rainbow Cotton
 2729720	4 in a row
 2730180	A Liminal Place
 2730940	MyRummy®
@@ -1467,7 +1468,6 @@
 3002850	FAIRY TAIL 2
 3004100	FREEDOM WARS Remastered
 3008070	Mortadelo y Filemón: Una aventura de cine - Edición original
-3008200	PAPERHEAD EP0
 3010270	Warhammer 40,000: Chaos Gate – Deathwatch
 3012980	Moorhuhn Kart 4
 3018890	The ultimate Math teaching game
@@ -1652,6 +1652,7 @@
 4128400	eBaseball™: PRO SPIRIT
 4162160	新盗墓笔记ol
 4162630	MINOS: Home A-Labyrinth
+4165620	R-Type Dimensions III
 4179450	Passion Bay
 4193730	The NewZealand Story: Untold Adventure
 4199910	Total War: WARHAMMER 40,000
@@ -1664,9 +1665,9 @@
 4434610	Hunter: The Reckoning – Deathwish
 4459850	NAMCO LEGENDARY Mountains
 4571290	玄中记
-4590020	Kill Source: Neon Hemorrhage
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
+4715270	Sun Ultimate War
 4753420	Celestia
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
