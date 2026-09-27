@@ -814,6 +814,7 @@
 1239940	Greed: Abandoned Dogs
 1240230	Tony Stewart's Sprint Car Racing
 1244460	Jurassic World Evolution 2
+1245480	SYNDUALITY Echo of Ada
 1248130	Farming Simulator 22
 1249800	Xuan-Yuan Sword VII
 1249970	Test Drive Unlimited Solar Crown
@@ -1088,6 +1089,7 @@
 1817230	Hi-Fi RUSH
 1820140	SlavicPunk: Oldtimer
 1823200	Jumanji: Wild Adventures
+1827240	Plague Lords: Witch Hunt
 1830630	Overpass 2
 1833530	Beatus Creation Solitaire
 1839940	Dakar Desert Rally
@@ -1206,6 +1208,7 @@
 2111630	JR EAST Train Simulator
 2114810	Tetris Girls
 2116680	FAIRY TAIL: Beach Volleyball Havoc
+2116800	モノマギア
 2124810	İfrit
 2125090	Tintin Reporter - Cigars of the Pharaoh
 2131430	Wings of The Universe
@@ -1460,6 +1463,7 @@
 2958970	The Thing: Remastered
 2964440	Yapori Minigames
 2967990	Train Sim World® 5
+2975660	Keyboard Tennis
 2977360	Cartographers
 2983910	Power Grid
 2993980	MasterChef: Learn to Cook!
@@ -1487,6 +1491,7 @@
 3082770	BombMaze
 3096560	The Little UNI
 3101600	Planetary Conflict: 2301
+3101920	Empire: Sound of the North
 3105440	Heroes of Might and Magic: Olden Era
 3112730	Dog Man: Mission Impawsible
 3115130	NBA BOUNCE
@@ -1640,6 +1645,7 @@
 3985460	Football Club Manager 26 LIVE
 3996530	Maggie's Farmyard Adventure
 4008350	Beat The Champions
+4028820	Citizen Vigilante
 4033710	The Butcher's Village™
 4042460	Tanks: 1985
 4056590	Arthur's Math Games
@@ -1648,6 +1654,7 @@
 4056630	Harry and the Haunted House
 4078430	STAR WARS: Galactic Racer™
 4080810	Construction Simulator 4 - Pocket Edition
+4094440	1 Trillion Credits In Debt
 4124830	Hasbro Games™ Junior Collection
 4128400	eBaseball™: PRO SPIRIT
 4162160	新盗墓笔记ol
