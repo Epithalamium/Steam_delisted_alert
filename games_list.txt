@@ -121,7 +121,6 @@
 271920	Worlds Adrift Island Creator
 272510	NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution
 273030	Pro Rugby Manager 2015
-273110	Counter-Strike Nexon
 273570	Descent
 273580	Descent 2
 273590	Descent 3
@@ -144,7 +143,6 @@
 292410	Street Racing Syndicate
 293880	Dark Scavenger
 300550	Shadowrun: Dragonfall - Director's Cut
-300820	Toy Story 3
 303830	Motorcycle Club
 304170	Kick-Ass 2
 304580	CITYCONOMY: Service for your City
@@ -979,12 +977,14 @@
 1542790	SRX: The Game
 1549970	Aliens: Fireteam Elite
 1551360	Forza Horizon 5
+1551980	Clive Barker's Hellraiser: Revival
 1556100	Killer Klowns From Outer Space: The Game
 1556200	Predator: Hunting Grounds
 1557860	Gear.Club Unlimited 2 Ultimate Edition
 1565910	CRAFTSMAN
 1566880	SWORD ART ONLINE Last Recollection
 1571460	Zorro The Chronicles
+1573550	LEGO® Skylines
 1573720	Agatha Christie - Hercule Poirot: The First Cases
 1576350	Blair Witch VR
 1577150	Tafl Champions: Ancient Chess
@@ -1132,7 +1132,6 @@
 1921740	CRAYON SHINCHAN The Storm Called! FLAMING KASUKABE RUNNER!!
 1922070	The Dream Team
 1924170	TT Isle Of Man: Ride on the Edge 3
-1925710	Mirror Spirits
 1926110	Bibi & Tina - New adventures with horses
 1926120	Vampire: The Masquerade - Heartless Lullaby
 1926220	Ludo XXL
@@ -1207,7 +1206,6 @@
 2111630	JR EAST Train Simulator
 2114810	Tetris Girls
 2116680	FAIRY TAIL: Beach Volleyball Havoc
-2116800	モノマギア
 2124810	İfrit
 2125090	Tintin Reporter - Cigars of the Pharaoh
 2131430	Wings of The Universe
@@ -1340,7 +1338,6 @@
 2477010	Ticket to Ride®
 2478330	Barbie Project Friendship™
 2479650	SpongeBob SquarePants: Titans of the Tide
-2479830	The Braves
 2483190	Forza Horizon 6
 2483220	LivingDollsRebirth
 2486740	Sledders
@@ -1459,6 +1456,7 @@
 2933130	The Lord of the Rings: Return to Moria™
 2934180	Doraemon Dorayaki Shop Story
 2936310	The Walking Dead: No Man's Land
+2958130	Jurassic World Evolution 3
 2958970	The Thing: Remastered
 2964440	Yapori Minigames
 2967990	Train Sim World® 5
@@ -1536,7 +1534,6 @@
 3327640	hololive Holo's Hanafuda
 3328180	Snoopy & The Great Mystery Club
 3328480	TETRIS® THE GRAND MASTER 4 -ABSOLUTE EYE-
-3337070	Jumper
 3344960	夏目友人帳 ～葉月の記～
 3352750	Kings of Emperor Bonaparte
 3356340	The Original Moorhuhn Hunt
@@ -1557,7 +1554,6 @@
 3428880	BRIO World - Railway
 3432510	Jianghu Diary
 3436970	Mournight
-3447000	米姆米姆哈
 3448650	Aliens: Fireteam Elite 2
 3452280	The Solitude Project
 3462650	Creepshow
@@ -1592,6 +1588,7 @@
 3649590	run for money Hunter vs. Runner! Which side will you win!?
 3650170	Marsupilami 2 - Salsa Palombia
 3650490	Oikizo
+3652860	東方エターナルフロンティア(TouhouEternalFrontier)
 3655390	Alien: Rogue Incursion Evolved Edition
 3656800	Train Sim World® 6
 3659460	Gear.Club Unlimited 3
@@ -1627,7 +1624,6 @@
 3843540	Dungeons & Dragons: Dragonshard
 3873970	NASCAR 25
 3882430	Laid-Back Camp: Camping Cook-off!
-3890550	Jam's Adjustable Mirrors
 3903190	The Bygone Days of Her and the Flowers
 3905010	ONE PIECE: Grand Gourmet
 3915180	史小坑的黑暗料理
@@ -1655,7 +1651,6 @@
 4056630	Harry and the Haunted House
 4078430	STAR WARS: Galactic Racer™
 4080810	Construction Simulator 4 - Pocket Edition
-4094440	1 Trillion Credits In Debt
 4124830	Hasbro Games™ Junior Collection
 4128400	eBaseball™: PRO SPIRIT
 4162160	新盗墓笔记ol
@@ -1671,10 +1666,12 @@
 4356430	NBA 2K27
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
+4434610	Hunter: The Reckoning – Deathwish
 4459850	NAMCO LEGENDARY Mountains
 4571290	玄中记
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
+4699430	The Birth Cry
 4753420	Celestia
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
