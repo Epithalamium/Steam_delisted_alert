@@ -369,6 +369,7 @@
 591960	Animation Throwdown: The Quest for Cards
 594570	Total War: WARHAMMER II
 595420	Franchise Hockey Manager 4
+595550	Mastema: Out of Hell
 595930	Steam: Rails to Riches
 598810	Carcassonne: The Official Board Game
 599900	Tower Defense - Fantasy Tower Game
@@ -911,6 +912,7 @@
 1417340	Werewolf Online
 1420080	Wonder Boy: Asha in monster world
 1420350	Fraymakers
+1420930	Movavi Slideshow Maker 8
 1421790	Labyrinth City: Pierre the Maze Detective
 1423600	BLUE REFLECTION: Second Light
 1431290	Sam & Max: This Time It's Virtual!
@@ -1318,6 +1320,7 @@
 2428810	LEGO® Horizon Adventures™
 2431700	Vampire: The Masquerade - Justice
 2434050	The Sisters 2 - Road To Fame
+2434120	PISTA Motorsport
 2436340	Yuuna and the Haunted Hot Springs The Thrilling Steamy Maze Kiwami
 2438970	Cascadia
 2438990	Ark Nova
@@ -1419,6 +1422,7 @@
 2774110	Tavern Girl
 2776900	The Eminence in Shadow: Master of Garden
 2777970	Stranger Things VR
+2786660	Barbie™ Horse Trails
 2793950	Totally Spies! - Cyber Mission
 2800080	Thief VR: Legacy of Shadow
 2800630	The Smurfs - Village Party
@@ -1428,6 +1432,7 @@
 2816870	Mighty Morphin Power Rangers: Rita's Rewind
 2817640	Wer weiß denn sowas? - Das 3. Spiel
 2821390	HOT WHEELS™ Infinite Rush
+2826570	Singularity Survivors
 2829790	Windstorm: Start of a Great Friendship - Remastered
 2838950	Game of Thrones: War For Westeros
 2840770	Avatar: Frontiers of Pandora
@@ -1605,7 +1610,6 @@
 3743790	Thomas & Friends™: Wonders of Sodor
 3744100	It’s Quiz Time: GUINNESS WORLD RECORDS™ 2026 Edition
 3744110	What Do You Meme?® The Video Game
-3744910	黄色猫片：爆射
 3746290	Werewolf: The Apocalypse – Rageborn
 3749580	He-Man and the Masters of the Universe™: Dragon Pearl of Destruction
 3756700	Warhammer Age of Sigmar: Deathmaster
@@ -1659,6 +1663,7 @@
 4179450	Passion Bay
 4193730	The NewZealand Story: Untold Adventure
 4199910	Total War: WARHAMMER 40,000
+4207580	Bag of Dreams
 4224240	Jujutsu Kaisen Phantom Parade
 4282500	hololive Dreams
 4304060	SONIC PICO PARK
@@ -1672,10 +1677,12 @@
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
 4699430	The Birth Cry
-4753420	Celestia
+4718880	Цикл прошлого
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
+5028210	Granny Horror House
 5166980	Wonderboy in Monster Land
 5189950	Winx Club - Moonlight Quest
+5284960	PISTA Racing PC
