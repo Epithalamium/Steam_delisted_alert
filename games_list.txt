@@ -905,6 +905,7 @@
 1398910	Jorel’s Brother and The Most Important Game of the Galaxy - Complete Edition
 1399840	Neptunia Virtual Stars
 1401590	Disney Dreamlight Valley
+1403840	Gecata by Movavi 6 – Streaming and Game Recording Software
 1405380	Haters
 1412820	Grimace Run
 1414850	Nickelodeon All-Star Brawl
@@ -1561,6 +1562,7 @@
 3436970	Mournight
 3448650	Aliens: Fireteam Elite 2
 3452280	The Solitude Project
+3453010	Demonfall
 3462650	Creepshow
 3465710	The Cat in the Hat: Rainy Day Mayhem
 3468640	AFL 26
@@ -1612,7 +1614,7 @@
 3744110	What Do You Meme?® The Video Game
 3746290	Werewolf: The Apocalypse – Rageborn
 3749580	He-Man and the Masters of the Universe™: Dragon Pearl of Destruction
-3756700	Warhammer Age of Sigmar: Deathmaster
+3756700	Warhammer Age Of Sigmar: Deathmaster
 3758690	Suite: Pictures at an Exhibition
 3763470	Wu-Tang: Rise of the Deceiver
 3768760	007 First Light
@@ -1657,13 +1659,13 @@
 4080810	Construction Simulator 4 - Pocket Edition
 4124830	Hasbro Games™ Junior Collection
 4128400	eBaseball™: PRO SPIRIT
+4155290	Nomadoss Chronicles
 4162160	新盗墓笔记ol
 4162630	MINOS: Home A-Labyrinth
 4165620	R-Type Dimensions III
 4179450	Passion Bay
 4193730	The NewZealand Story: Untold Adventure
 4199910	Total War: WARHAMMER 40,000
-4207580	Bag of Dreams
 4224240	Jujutsu Kaisen Phantom Parade
 4282500	hololive Dreams
 4304060	SONIC PICO PARK
