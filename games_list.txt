@@ -905,7 +905,6 @@
 1398910	Jorel’s Brother and The Most Important Game of the Galaxy - Complete Edition
 1399840	Neptunia Virtual Stars
 1401590	Disney Dreamlight Valley
-1403840	Gecata by Movavi 6 – Streaming and Game Recording Software
 1405380	Haters
 1412820	Grimace Run
 1414850	Nickelodeon All-Star Brawl
@@ -913,7 +912,6 @@
 1417340	Werewolf Online
 1420080	Wonder Boy: Asha in monster world
 1420350	Fraymakers
-1420930	Movavi Slideshow Maker 8
 1421790	Labyrinth City: Pierre the Maze Detective
 1423600	BLUE REFLECTION: Second Light
 1431290	Sam & Max: This Time It's Virtual!
@@ -991,6 +989,7 @@
 1573720	Agatha Christie - Hercule Poirot: The First Cases
 1576350	Blair Witch VR
 1577150	Tafl Champions: Ancient Chess
+1583820	Z-Company
 1586700	Marsupilami: Hoobadventure
 1589290	Kitsu's Destiny
 1590320	Bro Falls: Ultimate Showdown
@@ -1328,6 +1327,7 @@
 2440510	Forza Motorsport
 2443630	STAR WARS™: Episode I: Jedi Power Battles™
 2444160	The Phantom
+2446740	X-Force Under Attack
 2449510	DINOSAURS: Mission Dino Camp
 2452220	Sevyal
 2456420	HUNTER×HUNTER NEN×IMPACT
@@ -1529,6 +1529,7 @@
 3256150	Moomintroll: Winter's Warmth
 3264110	AUTO_BATTLER_RPG
 3273550	Dora™: Rainforest Rescue
+3275400	PATLABOR the Case Files
 3281130	World of Outlaws: Dirt Racing 24 Gold Edition
 3288920	Ed & Edda: GRAND PRIX – Racing Champions
 3291010	PAW Patrol™ Rescue Wheels™: Championship
@@ -1545,6 +1546,7 @@
 3356340	The Original Moorhuhn Hunt
 3356350	Moorhuhn 2
 3356360	Moorhuhn Winter Edition
+3361280	Sattelite
 3362660	World War Z VR
 3376690	THE HOUSE OF THE DEAD 2: Remake
 3385250	ラビィとパネルでしりとり
@@ -1553,6 +1555,7 @@
 3399110	Jaleco Sports: Goal!
 3399120	Jaleco Sports: Goal! 2
 3401920	Upin & Ipin Universe
+3411260	Wallace & Gromit in The Grand Getaway
 3417530	Panzer Dragoon Zwei: Remake
 3419690	Chicken Run: Eggstraction
 3428080	Jaleco Sports: Bases Loaded
@@ -1578,6 +1581,7 @@
 3504600	Ren & Stimpy Happy, Happy, Joy, Joy, Collection
 3509130	Nickelodeon Splat Pack
 3509140	Fear Effect 2: Retro Helix
+3516800	Hyper Mice Rescue
 3527760	RoboCop: Rogue City - Unfinished Business
 3533730	Warhammer 40,000: Boltgun - Words of Vengeance
 3551340	Football Manager 26
@@ -1647,6 +1651,7 @@
 3984650	City Hunter
 3985460	Football Club Manager 26 LIVE
 3996530	Maggie's Farmyard Adventure
+4005490	Nightmares
 4008350	Beat The Champions
 4028820	Citizen Vigilante
 4033710	The Butcher's Village™
@@ -1657,6 +1662,7 @@
 4056630	Harry and the Haunted House
 4078430	STAR WARS: Galactic Racer™
 4080810	Construction Simulator 4 - Pocket Edition
+4120530	10CountAvoidance
 4124830	Hasbro Games™ Junior Collection
 4128400	eBaseball™: PRO SPIRIT
 4155290	Nomadoss Chronicles
@@ -1667,9 +1673,12 @@
 4193730	The NewZealand Story: Untold Adventure
 4199910	Total War: WARHAMMER 40,000
 4224240	Jujutsu Kaisen Phantom Parade
+4245200	Warhammer Blood Bowl - The Official Video Game
 4282500	hololive Dreams
+4300530	Simu V3
 4304060	SONIC PICO PARK
 4345260	Masters of Magic
+4356280	SimsalaGrimm™ – The Chaos Crystal
 4356430	NBA 2K27
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
@@ -1684,6 +1693,7 @@
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
+4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
 5028210	Granny Horror House
 5166980	Wonderboy in Monster Land
 5189950	Winx Club - Moonlight Quest
