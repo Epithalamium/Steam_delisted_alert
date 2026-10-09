@@ -493,6 +493,7 @@
 758730	Paw Patrol: On A Roll
 759740	RIDE 3
 762150	Ready Player One: Rise of the Gunters
+765870	Leisure Suit Larry - Wet Dreams Don't Dry
 766040	Gloom
 766680	Punch Line
 766730	Gachimuchi Reloaded
@@ -895,6 +896,7 @@
 1371350	Solenars Edge II: Champions
 1372110	JoJo's Bizarre Adventure: All-Star Battle R
 1372990	PBA Basketball Slam Arcade Edition
+1373430	Leisure Suit Larry - Wet Dreams Dry Twice
 1374700	BIG-Bobby-Car – The Big Race
 1374850	Eldrador Creatures
 1374990	PAW Patrol Mighty Pups  Save Adventure Bay
@@ -984,6 +986,7 @@
 1557860	Gear.Club Unlimited 2 Ultimate Edition
 1565910	CRAFTSMAN
 1566880	SWORD ART ONLINE Last Recollection
+1571090	BEAST CRIMES
 1571460	Zorro The Chronicles
 1573550	LEGO® Skylines
 1573720	Agatha Christie - Hercule Poirot: The First Cases
@@ -1089,7 +1092,6 @@
 1817230	Hi-Fi RUSH
 1820140	SlavicPunk: Oldtimer
 1823200	Jumanji: Wild Adventures
-1827240	Plague Lords: Witch Hunt
 1830630	Overpass 2
 1833530	Beatus Creation Solitaire
 1839940	Dakar Desert Rally
@@ -1351,6 +1353,7 @@
 2494340	Tour de France 2024
 2494350	Pro Cycling Manager 2024
 2495100	Hello Kitty Island Adventure
+2498990	Achievement Display Cabinet
 2506480	Clue/Cluedo
 2511310	Pro Cycling Manager 25
 2511320	Tour de France 2025
@@ -1466,7 +1469,6 @@
 2958970	The Thing: Remastered
 2964440	Yapori Minigames
 2967990	Train Sim World® 5
-2975660	Keyboard Tennis
 2977360	Cartographers
 2983910	Power Grid
 2993980	MasterChef: Learn to Cook!
@@ -1565,7 +1567,6 @@
 3436970	Mournight
 3448650	Aliens: Fireteam Elite 2
 3452280	The Solitude Project
-3453010	Demonfall
 3462650	Creepshow
 3465710	The Cat in the Hat: Rainy Day Mayhem
 3468640	AFL 26
