@@ -369,7 +369,6 @@
 591960	Animation Throwdown: The Quest for Cards
 594570	Total War: WARHAMMER II
 595420	Franchise Hockey Manager 4
-595550	Mastema: Out of Hell
 595930	Steam: Rails to Riches
 598810	Carcassonne: The Official Board Game
 599900	Tower Defense - Fantasy Tower Game
@@ -710,6 +709,7 @@
 1082180	TT Isle of Man: Ride on the Edge 2
 1082680	The Walking Dead Onslaught
 1083000	The Last Town
+1084710	Climbros
 1085510	Garfield Kart - Furious Racing
 1087270	Franchise Hockey Manager 6
 1087440	Jay and Silent Bob: Mall Brawl
@@ -778,6 +778,7 @@
 1172710	Dune: Awakening
 1173150	Goosebumps Dead of Night
 1177020	Gigantosaurus The Game
+1177170	Pooplers
 1178050	狐の旅路
 1178400	Pro Cycling Manager 2020
 1178880	Panzer Dragoon: Remake
@@ -1520,7 +1521,6 @@
 3216600	KINGDOM HEARTS IV
 3219630	Halloween: The Game
 3222830	DreamWorks Gabby’s Dollhouse: Ready to Party
-3225930	Rotate or Die
 3229100	Teenage Mutant Ninja Turtles: Tactical Takedown
 3230400	EA SPORTS™ Madden NFL 26
 3231900	Go Babies
@@ -1548,7 +1548,7 @@
 3356340	The Original Moorhuhn Hunt
 3356350	Moorhuhn 2
 3356360	Moorhuhn Winter Edition
-3361280	Sattelite
+3362120	Youxing continent
 3362660	World War Z VR
 3376690	THE HOUSE OF THE DEAD 2: Remake
 3385250	ラビィとパネルでしりとり
@@ -1557,6 +1557,7 @@
 3399110	Jaleco Sports: Goal!
 3399120	Jaleco Sports: Goal! 2
 3401920	Upin & Ipin Universe
+3403310	Ever Hotter
 3411260	Wallace & Gromit in The Grand Getaway
 3417530	Panzer Dragoon Zwei: Remake
 3419690	Chicken Run: Eggstraction
@@ -1666,6 +1667,7 @@
 4120530	10CountAvoidance
 4124830	Hasbro Games™ Junior Collection
 4128400	eBaseball™: PRO SPIRIT
+4128590	Call of Girls
 4155290	Nomadoss Chronicles
 4162160	新盗墓笔记ol
 4162630	MINOS: Home A-Labyrinth
@@ -1678,6 +1680,7 @@
 4282500	hololive Dreams
 4300530	Simu V3
 4304060	SONIC PICO PARK
+4312480	RP2D Virtual Tabletop
 4345260	Masters of Magic
 4356280	SimsalaGrimm™ – The Chaos Crystal
 4356430	NBA 2K27
@@ -1686,12 +1689,14 @@
 4434610	Hunter: The Reckoning – Deathwish
 4459850	NAMCO LEGENDARY Mountains
 4571290	玄中记
+4589400	SUBFLOOR
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
 4699430	The Birth Cry
 4718880	Цикл прошлого
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
+4882040	My City
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
