@@ -2,24 +2,22 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-10-11 12:46 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-10-13 14:08 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
-**Total tracked:** 1706 apps
+**Total tracked:** 1712 apps
 
 ---
 
 ## Newly Added Since Last Check
 
-- [Climbros](https://store.steampowered.com/app/1084710/) (AppID: 1084710)
-- [Pooplers](https://store.steampowered.com/app/1177170/) (AppID: 1177170)
-- [Youxing continent](https://store.steampowered.com/app/3362120/) (AppID: 3362120)
-- [Ever Hotter](https://store.steampowered.com/app/3403310/) (AppID: 3403310)
-- [Call of Girls](https://store.steampowered.com/app/4128590/) (AppID: 4128590)
-- [RP2D Virtual Tabletop](https://store.steampowered.com/app/4312480/) (AppID: 4312480)
-- [SUBFLOOR](https://store.steampowered.com/app/4589400/) (AppID: 4589400)
-- [My City](https://store.steampowered.com/app/4882040/) (AppID: 4882040)
+- [Idle Earth](https://store.steampowered.com/app/789750/) (AppID: 789750)
+- [Mage](https://store.steampowered.com/app/1013100/) (AppID: 1013100)
+- [Turok: Origins](https://store.steampowered.com/app/1967610/) (AppID: 1967610)
+- [Idle Gem Quest](https://store.steampowered.com/app/2144290/) (AppID: 2144290)
+- [SoundKilla](https://store.steampowered.com/app/2888190/) (AppID: 2888190)
+- [Warrior Cats: Clans of the Forest](https://store.steampowered.com/app/3960600/) (AppID: 3960600)
 
 ---
 

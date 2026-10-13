@@ -508,6 +508,7 @@
 784080	MechWarrior 5: Mercenaries
 787860	Farming Simulator 19
 788420	Potion Explosion
+789750	Idle Earth
 793310	Die drei ??? und der Riesenkrake
 793320	Die drei ??? - Rätsel aus der Geisterwelt
 794180	Pro Fishing Simulator
@@ -663,6 +664,7 @@
 1007740	Refight:The Last Warship
 1009290	SWORD ART ONLINE Alicization Lycoris
 1011990	Dies irae ~Interview with Kaziklu Bey~
+1013100	Mage
 1014050	Hockey Manager 20|20
 1016950	Blood Bowl 3
 1018160	MXGP 2019 - The Official Motocross Videogame
@@ -1160,6 +1162,7 @@
 1965680	HopDodge
 1966690	Tad the Lost Explorer
 1967260	Double Dragon Gaiden: Rise of the Dragons
+1967610	Turok: Origins
 1968570	The Quintessential Quintuplets OMOIDE VR ~ITSUKI~
 1969370	LEGO® Party!
 1972820	Suicide Guy Deluxe Plus
@@ -1215,6 +1218,7 @@
 2125090	Tintin Reporter - Cigars of the Pharaoh
 2131430	Wings of The Universe
 2142330	Bud Spencer & Terence Hill - Slaps And Beans 2
+2144290	Idle Gem Quest
 2157830	John Carpenter's Toxic Commando
 2158030	RetroRealms
 2160480	Hellboy Web of Wyrd
@@ -1453,6 +1457,7 @@
 2878600	Harry Potter: Quidditch Champions
 2878960	WWE 2K25
 2878980	NBA 2K25
+2888190	SoundKilla
 2889830	Fortress Challenge : Fort Boyard
 2894820	Velvet Bite: Softly, with Teeth
 2918150	ONE PIECE Bounty Rush
@@ -1648,6 +1653,7 @@
 3936610	Monopoly: Star Wars™ Heroes vs. Villains
 3940610	EA SPORTS™ Madden NFL 27
 3954580	Star Trek: Infection
+3960600	Warrior Cats: Clans of the Forest
 3969340	Bibi & Tina – Ready, Set, Ride!
 3977380	JAWS: Retro Edition
 3984650	City Hunter
