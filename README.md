@@ -2,7 +2,7 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-10-13 14:08 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-10-15 11:25 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
@@ -12,12 +12,10 @@ Updated every 2 days via GitHub Actions. Last updated: **2026-10-13 14:08 UTC**
 
 ## Newly Added Since Last Check
 
-- [Idle Earth](https://store.steampowered.com/app/789750/) (AppID: 789750)
-- [Mage](https://store.steampowered.com/app/1013100/) (AppID: 1013100)
-- [Turok: Origins](https://store.steampowered.com/app/1967610/) (AppID: 1967610)
-- [Idle Gem Quest](https://store.steampowered.com/app/2144290/) (AppID: 2144290)
-- [SoundKilla](https://store.steampowered.com/app/2888190/) (AppID: 2888190)
-- [Warrior Cats: Clans of the Forest](https://store.steampowered.com/app/3960600/) (AppID: 3960600)
+- [Chef Life: A Restaurant Simulator](https://store.steampowered.com/app/1122340/) (AppID: 1122340)
+- [DARKEST DAYS](https://store.steampowered.com/app/1548520/) (AppID: 1548520)
+- [FRONT MISSION 3: Remake](https://store.steampowered.com/app/3795900/) (AppID: 3795900)
+- [Forgotten Haven: The First Call](https://store.steampowered.com/app/5051490/) (AppID: 5051490)
 
 ---
 

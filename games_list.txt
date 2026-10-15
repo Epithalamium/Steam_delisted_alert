@@ -508,7 +508,6 @@
 784080	MechWarrior 5: Mercenaries
 787860	Farming Simulator 19
 788420	Potion Explosion
-789750	Idle Earth
 793310	Die drei ??? und der Riesenkrake
 793320	Die drei ??? - Rätsel aus der Geisterwelt
 794180	Pro Fishing Simulator
@@ -664,7 +663,6 @@
 1007740	Refight:The Last Warship
 1009290	SWORD ART ONLINE Alicization Lycoris
 1011990	Dies irae ~Interview with Kaziklu Bey~
-1013100	Mage
 1014050	Hockey Manager 20|20
 1016950	Blood Bowl 3
 1018160	MXGP 2019 - The Official Motocross Videogame
@@ -746,6 +744,7 @@
 1118350	Meegah Mem 2
 1118730	Super Lee World
 1121910	I Love You, Colonel Sanders! A Finger Lickin’ Good Dating Simulator
+1122340	Chef Life: A Restaurant Simulator
 1124710	IS<Infinite Stratos> Versus Colors
 1126990	PBA Pro Bowling
 1128810	RISK: Global Domination
@@ -981,6 +980,7 @@
 1538010	Shoresy: Legends of the North
 1538550	LEGO® Voyagers
 1542790	SRX: The Game
+1548520	DARKEST DAYS
 1549970	Aliens: Fireteam Elite
 1551360	Forza Horizon 5
 1551980	Clive Barker's Hellraiser: Revival
@@ -1218,7 +1218,6 @@
 2125090	Tintin Reporter - Cigars of the Pharaoh
 2131430	Wings of The Universe
 2142330	Bud Spencer & Terence Hill - Slaps And Beans 2
-2144290	Idle Gem Quest
 2157830	John Carpenter's Toxic Commando
 2158030	RetroRealms
 2160480	Hellboy Web of Wyrd
@@ -1632,6 +1631,7 @@
 3777850	The Walking Dead: Streets of Survival
 3787240	MARVEL Tōkon: Fighting Souls
 3790770	Panzer Kliker
+3795900	FRONT MISSION 3: Remake
 3817710	Rugrats: Retro Rewind Collection
 3818010	BEYBLADE X EVOBATTLE
 3833930	Silent Cleaning
@@ -1702,11 +1702,11 @@
 4718880	Цикл прошлого
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
-4882040	My City
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
 5028210	Granny Horror House
+5051490	Forgotten Haven: The First Call
 5166980	Wonderboy in Monster Land
 5189950	Winx Club - Moonlight Quest
 5284960	PISTA Racing PC
