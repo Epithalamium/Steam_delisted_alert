@@ -2,20 +2,20 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-10-15 11:25 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-10-17 10:40 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
-**Total tracked:** 1712 apps
+**Total tracked:** 1713 apps
 
 ---
 
 ## Newly Added Since Last Check
 
-- [Chef Life: A Restaurant Simulator](https://store.steampowered.com/app/1122340/) (AppID: 1122340)
-- [DARKEST DAYS](https://store.steampowered.com/app/1548520/) (AppID: 1548520)
-- [FRONT MISSION 3: Remake](https://store.steampowered.com/app/3795900/) (AppID: 3795900)
-- [Forgotten Haven: The First Call](https://store.steampowered.com/app/5051490/) (AppID: 5051490)
+- [PLAYTOWN: Chapter 3](https://store.steampowered.com/app/3724310/) (AppID: 3724310)
+- [Nickelodeon Extreme Tennis : Next!](https://store.steampowered.com/app/4111390/) (AppID: 4111390)
+- [Wane’s](https://store.steampowered.com/app/4445000/) (AppID: 4445000)
+- [Nexfall](https://store.steampowered.com/app/4754960/) (AppID: 4754960)
 
 ---
 

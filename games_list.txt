@@ -1561,7 +1561,6 @@
 3399110	Jaleco Sports: Goal!
 3399120	Jaleco Sports: Goal! 2
 3401920	Upin & Ipin Universe
-3403310	Ever Hotter
 3411260	Wallace & Gromit in The Grand Getaway
 3417530	Panzer Dragoon Zwei: Remake
 3419690	Chicken Run: Eggstraction
@@ -1617,6 +1616,7 @@
 3710360	GÖREV
 3710600	Warhammer 40,000: Dark Heresy
 3717070	WWE 2K26
+3724310	PLAYTOWN: Chapter 3
 3727390	The Expanse: Osiris Reborn
 3735230	Samurai Academy: Paws of Fury
 3743790	Thomas & Friends™: Wonders of Sodor
@@ -1670,6 +1670,7 @@
 4056630	Harry and the Haunted House
 4078430	STAR WARS: Galactic Racer™
 4080810	Construction Simulator 4 - Pocket Edition
+4111390	Nickelodeon Extreme Tennis : Next!
 4120530	10CountAvoidance
 4124830	Hasbro Games™ Junior Collection
 4128400	eBaseball™: PRO SPIRIT
@@ -1693,20 +1694,20 @@
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
 4434610	Hunter: The Reckoning – Deathwish
+4445000	Wane’s
 4459850	NAMCO LEGENDARY Mountains
 4571290	玄中记
-4589400	SUBFLOOR
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
 4699430	The Birth Cry
 4718880	Цикл прошлого
+4754960	Nexfall
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
 5028210	Granny Horror House
-5051490	Forgotten Haven: The First Call
 5166980	Wonderboy in Monster Land
 5189950	Winx Club - Moonlight Quest
 5284960	PISTA Racing PC
