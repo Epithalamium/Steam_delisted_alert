@@ -1144,6 +1144,7 @@
 1926220	Ludo XXL
 1926590	Nancy Drew®: Mystery of the Seven Keys
 1930580	Devil's 5 Days Mischief Game
+1934810	驯龙物语
 1934930	Conquest Emperor
 1935960	Drifter's Tales
 1937470	Franchise Hockey Manager 9
@@ -1153,7 +1154,6 @@
 1947500	The Walking Dead: Saints & Sinners - Chapter 2: Retribution
 1952520	PAW Patrol World
 1953520	WRC Generations - The FIA WRC Official Game
-1955800	TRANSFORMERS: EARTHSPARK - Expedition
 1955980	Arsilon
 1959280	Over Jump Rally
 1961460	Project Playtime
@@ -1258,6 +1258,7 @@
 2228150	The Soul's Choice
 2228250	Endurance Motorsport Series
 2231920	The Kangaroo Conspiracy
+2233020	The Quintessential Quintuplets OMOIDE VR ~YOTSUBA~
 2233120	A Quiet Place: The Road Ahead
 2235440	My Little Pony: A Zephyr Heights Mystery
 2238260	Gigantosaurus: Dino Sports
@@ -1270,6 +1271,7 @@
 2287000	NINJA KIDZ: TIME MASTERS
 2288080	Maumau and the Labyrinth
 2288340	ACE COMBAT 8: WINGS OF THEVE
+2289120	Maxix Robotics
 2293780	Faster Racer Boom Boom
 2295970	UFO ROBOT GRENDIZER – The Feast of the Wolves
 2303850	Toxic Crusaders
@@ -1333,6 +1335,7 @@
 2440510	Forza Motorsport
 2443630	STAR WARS™: Episode I: Jedi Power Battles™
 2444160	The Phantom
+2446550	STAR WARS™: Battlefront Classic Collection
 2446740	X-Force Under Attack
 2449510	DINOSAURS: Mission Dino Camp
 2452220	Sevyal
@@ -1366,6 +1369,7 @@
 2516170	G.I. Joe: Wrath of Cobra
 2518960	Wizardry: Proving Grounds of the Mad Overlord
 2520950	The Light in the Darkness
+2523740	DreamWorks Shrek 2 Remastered
 2523770	The Lord of the Rings: War in the North™ - Legacy Edition
 2527580	Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants
 2532480	Warhammer 40,000: Mechanicus II
@@ -1690,6 +1694,7 @@
 4199910	Total War: WARHAMMER 40,000
 4224240	Jujutsu Kaisen Phantom Parade
 4245200	Warhammer Blood Bowl - The Official Video Game
+4251460	Godzilla: Destroy All Monsters Melee Remastered
 4282500	hololive Dreams
 4300530	Simu V3
 4304060	SONIC PICO PARK
@@ -1707,11 +1712,11 @@
 4682460	G-MODEアーカイブス+ パックマン
 4699430	The Birth Cry
 4718880	Цикл прошлого
-4754960	Nexfall
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
+4930540	Anomaly Tunnel
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
 5028210	Granny Horror House
 5166980	Wonderboy in Monster Land
