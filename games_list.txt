@@ -492,7 +492,6 @@
 758730	Paw Patrol: On A Roll
 759740	RIDE 3
 762150	Ready Player One: Rise of the Gunters
-765870	Leisure Suit Larry - Wet Dreams Don't Dry
 766040	Gloom
 766680	Punch Line
 766730	Gachimuchi Reloaded
@@ -898,7 +897,6 @@
 1371350	Solenars Edge II: Champions
 1372110	JoJo's Bizarre Adventure: All-Star Battle R
 1372990	PBA Basketball Slam Arcade Edition
-1373430	Leisure Suit Larry - Wet Dreams Dry Twice
 1374700	BIG-Bobby-Car – The Big Race
 1374850	Eldrador Creatures
 1374990	PAW Patrol Mighty Pups  Save Adventure Bay
@@ -968,6 +966,7 @@
 1511630	TrackDayR
 1514360	ゆるキャン△ VIRTUAL CAMP ～本栖湖編～ / Laid-Back Camp - Virtual - Lake Motosu
 1514370	ゆるキャン△ VIRTUAL CAMP ～麓キャンプ場編～ / Laid-Back Camp - Virtual - Fumoto Campsite
+1518860	Gravel Gang
 1521160	Are You Smarter than a 5th Grader?
 1522160	Disney Epic Mickey: Rebrushed
 1523170	Aladdin : Save The Princess
@@ -1163,7 +1162,6 @@
 1966690	Tad the Lost Explorer
 1967260	Double Dragon Gaiden: Rise of the Dragons
 1967610	Turok: Origins
-1968570	The Quintessential Quintuplets OMOIDE VR ~ITSUKI~
 1969370	LEGO® Party!
 1972820	Suicide Guy Deluxe Plus
 1978210	The Grinch: Christmas Adventures
@@ -1258,7 +1256,6 @@
 2228150	The Soul's Choice
 2228250	Endurance Motorsport Series
 2231920	The Kangaroo Conspiracy
-2233020	The Quintessential Quintuplets OMOIDE VR ~YOTSUBA~
 2233120	A Quiet Place: The Road Ahead
 2235440	My Little Pony: A Zephyr Heights Mystery
 2238260	Gigantosaurus: Dino Sports
@@ -1271,7 +1268,7 @@
 2287000	NINJA KIDZ: TIME MASTERS
 2288080	Maumau and the Labyrinth
 2288340	ACE COMBAT 8: WINGS OF THEVE
-2289120	Maxix Robotics
+2292260	STAR WARS™: Dark Forces Remaster
 2293780	Faster Racer Boom Boom
 2295970	UFO ROBOT GRENDIZER – The Feast of the Wolves
 2303850	Toxic Crusaders
@@ -1451,7 +1448,7 @@
 2840770	Avatar: Frontiers of Pandora
 2842040	Star Wars Outlaws
 2848680	Landmaster
-2850150	G-MODEアーカイブス+ ペルソナ3 アイギス THE FIRST MISSION
+2850150	G-MODEArchives+ Persona3 Aigis THE FIRST MISSION
 2859870	Duel of games
 2864110	GILTSTEADER
 2865440	FRONT MISSION 2: Remake
@@ -1464,8 +1461,8 @@
 2888190	SoundKilla
 2889830	Fortress Challenge : Fort Boyard
 2894820	Velvet Bite: Softly, with Teeth
+2916700	Attack on Titan 3 / A.O.T. 3
 2918150	ONE PIECE Bounty Rush
-2922790	Arena of Trophies
 2926680	Tiny
 2926900	MAVRIX by Matt Jones
 2928280	Crime Simulator: Playgrounds
@@ -1492,6 +1489,7 @@
 3018890	The ultimate Math teaching game
 3023070	BEYBLADE X XONE
 3025590	TRON: Catalyst
+3032460	PinDrop
 3040910	Hot Wheels Let's Race: Ultimate Speed
 3042650	Race Max Pro
 3050640	WhereHurt
@@ -1622,7 +1620,6 @@
 3710360	GÖREV
 3710600	Warhammer 40,000: Dark Heresy
 3717070	WWE 2K26
-3724310	PLAYTOWN: Chapter 3
 3727390	The Expanse: Osiris Reborn
 3735230	Samurai Academy: Paws of Fury
 3743790	Thomas & Friends™: Wonders of Sodor
@@ -1693,6 +1690,7 @@
 4193730	The NewZealand Story: Untold Adventure
 4199910	Total War: WARHAMMER 40,000
 4224240	Jujutsu Kaisen Phantom Parade
+4234600	Frontline Frenzy
 4245200	Warhammer Blood Bowl - The Official Video Game
 4251460	Godzilla: Destroy All Monsters Melee Remastered
 4282500	hololive Dreams
@@ -1716,9 +1714,8 @@
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
-4930540	Anomaly Tunnel
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
+4986720	Broken Front
 5028210	Granny Horror House
-5166980	Wonderboy in Monster Land
 5189950	Winx Club - Moonlight Quest
 5284960	PISTA Racing PC

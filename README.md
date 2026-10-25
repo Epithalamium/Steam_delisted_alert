@@ -2,23 +2,22 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-10-21 11:45 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-10-25 11:23 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
-**Total tracked:** 1724 apps
+**Total tracked:** 1721 apps
 
 ---
 
 ## Newly Added Since Last Check
 
-- [驯龙物语](https://store.steampowered.com/app/1934810/) (AppID: 1934810)
-- [The Quintessential Quintuplets OMOIDE VR ~YOTSUBA~](https://store.steampowered.com/app/2233020/) (AppID: 2233020)
-- [Maxix Robotics](https://store.steampowered.com/app/2289120/) (AppID: 2289120)
-- [STAR WARS™: Battlefront Classic Collection](https://store.steampowered.com/app/2446550/) (AppID: 2446550)
-- [DreamWorks Shrek 2 Remastered](https://store.steampowered.com/app/2523740/) (AppID: 2523740)
-- [Godzilla: Destroy All Monsters Melee Remastered](https://store.steampowered.com/app/4251460/) (AppID: 4251460)
-- [Anomaly Tunnel](https://store.steampowered.com/app/4930540/) (AppID: 4930540)
+- [Gravel Gang](https://store.steampowered.com/app/1518860/) (AppID: 1518860)
+- [STAR WARS™: Dark Forces Remaster](https://store.steampowered.com/app/2292260/) (AppID: 2292260)
+- [Attack on Titan 3 / A.O.T. 3](https://store.steampowered.com/app/2916700/) (AppID: 2916700)
+- [PinDrop](https://store.steampowered.com/app/3032460/) (AppID: 3032460)
+- [Frontline Frenzy](https://store.steampowered.com/app/4234600/) (AppID: 4234600)
+- [Broken Front](https://store.steampowered.com/app/4986720/) (AppID: 4986720)
 
 ---
 
