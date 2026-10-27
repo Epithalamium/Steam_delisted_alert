@@ -387,6 +387,7 @@
 615730	Nancy Drew: The Final Scene
 615770	Nancy Drew: Message in a Haunted Mansion
 615780	Nancy Drew: Treasure in the Royal Tower
+618200	Skylands
 618590	Zombie Buster VR
 621060	PC Building Simulator
 621830	WRC 7
@@ -469,6 +470,7 @@
 719950	Windows Mixed Reality for SteamVR
 720150	Shikhondo(食魂徒) - Soul Eater
 728240	Adventure Time: Pirates of the Enchiridion
+729650	More Than Just Chess
 732400	PlataGO!
 735620	Die drei ??? - Geheimnis der Schattenhelden
 737880	RIFF VR
@@ -861,6 +863,7 @@
 1294450	Little Witch Academia: VR Broom Racing
 1295500	Warhammer 40,000: Battlesector
 1296970	Zombieland VR: Headshot Fever
+1298390	Rubble Bubble
 1299510	Vampire: The Masquerade - Swansong
 1303140	Escape Game Fort Boyard
 1304340	Monster Energy Supercross - The Official Videogame 4
@@ -1447,6 +1450,7 @@
 2838950	Game of Thrones: War For Westeros
 2840770	Avatar: Frontiers of Pandora
 2842040	Star Wars Outlaws
+2842500	Hentai Puzzle: Clarise
 2848680	Landmaster
 2850150	G-MODEArchives+ Persona3 Aigis THE FIRST MISSION
 2859870	Duel of games
@@ -1559,7 +1563,6 @@
 3362120	Youxing continent
 3362660	World War Z VR
 3376690	THE HOUSE OF THE DEAD 2: Remake
-3385250	ラビィとパネルでしりとり
 3392700	Geopogo Cities
 3393070	KAIJU NO. 8 THE GAME
 3399110	Jaleco Sports: Goal!
@@ -1709,13 +1712,13 @@
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
 4699430	The Birth Cry
-4718880	Цикл прошлого
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
 4986720	Broken Front
+5007910	Metro Resonance
 5028210	Granny Horror House
 5189950	Winx Club - Moonlight Quest
 5284960	PISTA Racing PC

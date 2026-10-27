@@ -2,22 +2,21 @@
 
 Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-10-25 11:23 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-10-27 12:07 UTC**
 
 **Filters applied:** Recommended · Released (default page view)
 
-**Total tracked:** 1721 apps
+**Total tracked:** 1724 apps
 
 ---
 
 ## Newly Added Since Last Check
 
-- [Gravel Gang](https://store.steampowered.com/app/1518860/) (AppID: 1518860)
-- [STAR WARS™: Dark Forces Remaster](https://store.steampowered.com/app/2292260/) (AppID: 2292260)
-- [Attack on Titan 3 / A.O.T. 3](https://store.steampowered.com/app/2916700/) (AppID: 2916700)
-- [PinDrop](https://store.steampowered.com/app/3032460/) (AppID: 3032460)
-- [Frontline Frenzy](https://store.steampowered.com/app/4234600/) (AppID: 4234600)
-- [Broken Front](https://store.steampowered.com/app/4986720/) (AppID: 4986720)
+- [Skylands](https://store.steampowered.com/app/618200/) (AppID: 618200)
+- [More Than Just Chess](https://store.steampowered.com/app/729650/) (AppID: 729650)
+- [Rubble Bubble](https://store.steampowered.com/app/1298390/) (AppID: 1298390)
+- [Hentai Puzzle: Clarise](https://store.steampowered.com/app/2842500/) (AppID: 2842500)
+- [Metro Resonance](https://store.steampowered.com/app/5007910/) (AppID: 5007910)
 
 ---
 
