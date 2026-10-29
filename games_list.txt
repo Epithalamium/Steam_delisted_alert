@@ -1158,7 +1158,6 @@
 1953520	WRC Generations - The FIA WRC Official Game
 1955980	Arsilon
 1959280	Over Jump Rally
-1961460	Project Playtime
 1962150	My Life: Riding Stables 3
 1962650	Horrid Henry's Krazy Karts
 1965680	HopDodge
@@ -1701,7 +1700,6 @@
 4304060	SONIC PICO PARK
 4312480	RP2D Virtual Tabletop
 4345260	Masters of Magic
-4356280	SimsalaGrimm™ – The Chaos Crystal
 4356430	NBA 2K27
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
@@ -1717,7 +1715,6 @@
 4883590	iRacing® Studios NASCAR 26
 4902580	Jay and Silent Bob's Joint Venture
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
-4986720	Broken Front
 5007910	Metro Resonance
 5028210	Granny Horror House
 5189950	Winx Club - Moonlight Quest
