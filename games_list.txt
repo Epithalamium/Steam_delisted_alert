@@ -863,7 +863,6 @@
 1294450	Little Witch Academia: VR Broom Racing
 1295500	Warhammer 40,000: Battlesector
 1296970	Zombieland VR: Headshot Fever
-1298390	Rubble Bubble
 1299510	Vampire: The Masquerade - Swansong
 1303140	Escape Game Fort Boyard
 1304340	Monster Energy Supercross - The Official Videogame 4
@@ -969,7 +968,6 @@
 1511630	TrackDayR
 1514360	ゆるキャン△ VIRTUAL CAMP ～本栖湖編～ / Laid-Back Camp - Virtual - Lake Motosu
 1514370	ゆるキャン△ VIRTUAL CAMP ～麓キャンプ場編～ / Laid-Back Camp - Virtual - Fumoto Campsite
-1518860	Gravel Gang
 1521160	Are You Smarter than a 5th Grader?
 1522160	Disney Epic Mickey: Rebrushed
 1523170	Aladdin : Save The Princess
@@ -1335,7 +1333,6 @@
 2443630	STAR WARS™: Episode I: Jedi Power Battles™
 2444160	The Phantom
 2446550	STAR WARS™: Battlefront Classic Collection
-2446740	X-Force Under Attack
 2449510	DINOSAURS: Mission Dino Camp
 2452220	Sevyal
 2456420	HUNTER×HUNTER NEN×IMPACT
@@ -1449,7 +1446,6 @@
 2838950	Game of Thrones: War For Westeros
 2840770	Avatar: Frontiers of Pandora
 2842040	Star Wars Outlaws
-2842500	Hentai Puzzle: Clarise
 2848680	Landmaster
 2850150	G-MODEArchives+ Persona3 Aigis THE FIRST MISSION
 2859870	Duel of games
@@ -1460,7 +1456,6 @@
 2878220	Space Adventure Cobra - The Awakening
 2878600	Harry Potter: Quidditch Champions
 2878960	WWE 2K25
-2878980	NBA 2K25
 2888190	SoundKilla
 2889830	Fortress Challenge : Fort Boyard
 2894820	Velvet Bite: Softly, with Teeth
@@ -1554,6 +1549,7 @@
 3327640	hololive Holo's Hanafuda
 3328180	Snoopy & The Great Mystery Club
 3328480	TETRIS® THE GRAND MASTER 4 -ABSOLUTE EYE-
+3339970	WendyQuest: Legend of the Four Corner Stones
 3344960	夏目友人帳 ～葉月の記～
 3352750	Kings of Emperor Bonaparte
 3356340	The Original Moorhuhn Hunt
@@ -1574,7 +1570,6 @@
 3428090	Jaleco Sports: Bases Loaded 2
 3428880	BRIO World - Railway
 3432510	Jianghu Diary
-3436970	Mournight
 3448650	Aliens: Fireteam Elite 2
 3452280	The Solitude Project
 3462650	Creepshow
@@ -1592,7 +1587,6 @@
 3504600	Ren & Stimpy Happy, Happy, Joy, Joy, Collection
 3509130	Nickelodeon Splat Pack
 3509140	Fear Effect 2: Retro Helix
-3516800	Hyper Mice Rescue
 3527760	RoboCop: Rogue City - Unfinished Business
 3533730	Warhammer 40,000: Boltgun - Words of Vengeance
 3551340	Football Manager 26
@@ -1700,6 +1694,7 @@
 4304060	SONIC PICO PARK
 4312480	RP2D Virtual Tabletop
 4345260	Masters of Magic
+4356280	SimsalaGrimm™ – The Chaos Crystal
 4356430	NBA 2K27
 4375120	Jigokuraku: BATTLE IN HELL'S PARADISE
 4420730	GACHIAKUTA: The Game
@@ -1713,6 +1708,7 @@
 4782240	Dog Man: Bark in Action
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
+4898790	Crosstalk
 4902580	Jay and Silent Bob's Joint Venture
 4943990	Prinzessin Lillifee – Zauberhafte Spielesammlung
 5007910	Metro Resonance
