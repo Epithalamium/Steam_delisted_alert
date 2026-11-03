@@ -387,7 +387,6 @@
 615730	Nancy Drew: The Final Scene
 615770	Nancy Drew: Message in a Haunted Mansion
 615780	Nancy Drew: Treasure in the Royal Tower
-618200	Skylands
 618590	Zombie Buster VR
 621060	PC Building Simulator
 621830	WRC 7
@@ -470,7 +469,6 @@
 719950	Windows Mixed Reality for SteamVR
 720150	Shikhondo(食魂徒) - Soul Eater
 728240	Adventure Time: Pirates of the Enchiridion
-729650	More Than Just Chess
 732400	PlataGO!
 735620	Die drei ??? - Geheimnis der Schattenhelden
 737880	RIFF VR
@@ -610,6 +608,7 @@
 939970	Pixel Puzzles Aardman Jigsaws
 940580	FIA European Truck Racing Championship
 942270	Kunoichi Tsubaki
+942850	I Walk Among Zombies Vol. 1 (Adult Version)
 943410	Istanbul: Digital Edition
 945810	bayala - the game
 947250	Bibi & Tina - Adventures with Horses
@@ -995,7 +994,6 @@
 1573720	Agatha Christie - Hercule Poirot: The First Cases
 1576350	Blair Witch VR
 1577150	Tafl Champions: Ancient Chess
-1583820	Z-Company
 1586700	Marsupilami: Hoobadventure
 1589290	Kitsu's Destiny
 1590320	Bro Falls: Ultimate Showdown
@@ -1244,6 +1242,7 @@
 2199930	DreamWorks Trolls Remix Rescue
 2207590	Exorcist 2: Crow Magic
 2208810	Jurassic Park: Survival
+2208840	Amazing Space
 2209270	Moorhuhn Pirates - Crazy Chicken Pirates
 2210520	Copa City
 2213190	DEATH NOTE Killer Within
@@ -1356,7 +1355,6 @@
 2494340	Tour de France 2024
 2494350	Pro Cycling Manager 2024
 2495100	Hello Kitty Island Adventure
-2498990	Achievement Display Cabinet
 2506480	Clue/Cluedo
 2511310	Pro Cycling Manager 25
 2511320	Tour de France 2025
@@ -1589,6 +1587,7 @@
 3509140	Fear Effect 2: Retro Helix
 3527760	RoboCop: Rogue City - Unfinished Business
 3533730	Warhammer 40,000: Boltgun - Words of Vengeance
+3543170	Animal Match
 3551340	Football Manager 26
 3556750	Warhammer 40,000: Dawn of War - Definitive Edition
 3569250	The Sequencer
@@ -1671,7 +1670,6 @@
 4056610	Arthur's Reading Games
 4056630	Harry and the Haunted House
 4078430	STAR WARS: Galactic Racer™
-4079420	FROGBLOCK
 4080810	Construction Simulator 4 - Pocket Edition
 4111390	Nickelodeon Extreme Tennis : Next!
 4120530	10CountAvoidance
