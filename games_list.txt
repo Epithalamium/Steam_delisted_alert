@@ -564,6 +564,7 @@
 877850	Tribe XR | DJ Academy
 878670	Shenmue III
 879140	Space Channel 5 VR Kinda Funky News Flash!
+880220	~Azur Ring~virgin and slave's phylacteries
 880380	Franchise Hockey Manager 5
 882020	Monster Energy Supercross - The Official Videogame 2
 884370	Hotel Transylvania Popstic
@@ -600,6 +601,7 @@
 923470	MOMO.EXE
 925090	Sharknado VR
 925900	Monica e a Guarda dos Coelhos
+929140	Tank Royale
 930030	Cyber Watch
 930470	Crimson Souls
 930630	The Lost Legends of Redwall: Escape the Gloomer
@@ -637,6 +639,7 @@
 969990	SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated
 970300	Re.Poly
 970840	Overpass™
+975120	~necromancy~Emily's Escape
 975910	HENTAI SHADOW
 976590	Bus Simulator 21 Next Stop
 979060	Bloons Adventure Time TD
@@ -678,6 +681,7 @@
 1038250	DIRT 5
 1038450	Nancy Drew: Midnight in Salem
 1040610	Zero One / 杀戮世界
+1042170	Summon of asmodeus
 1042550	Digimon Story Cyber Sleuth: Complete Edition
 1042560	Castle Legend：Devil Awakening
 1042800	Warhammer 40,000: Inquisitor - Prophecy
@@ -957,7 +961,6 @@
 1492310	Asterix & Obelix Slap Them All!
 1492320	New Joe & Mac - Caveman Ninja
 1492730	DORAEMON STORY OF SEASONS: Friends of the Great Kingdom
-1497530	StarPicker
 1502540	The Sisters - Party of the Year
 1502560	The Smurfs - Mission Vileaf
 1504010	Negative: The Way of Shinobi
@@ -1329,6 +1332,7 @@
 2438970	Cascadia
 2438990	Ark Nova
 2440510	Forza Motorsport
+2440750	Silent North
 2443630	STAR WARS™: Episode I: Jedi Power Battles™
 2444160	The Phantom
 2446550	STAR WARS™: Battlefront Classic Collection
@@ -1654,6 +1658,7 @@
 3954580	Star Trek: Infection
 3960600	Warrior Cats: Clans of the Forest
 3969340	Bibi & Tina – Ready, Set, Ride!
+3975060	Danger Mouse
 3977380	JAWS: Retro Edition
 3984650	City Hunter
 3985460	Football Club Manager 26 LIVE
@@ -1699,6 +1704,7 @@
 4434610	Hunter: The Reckoning – Deathwish
 4445000	Wane’s
 4459850	NAMCO LEGENDARY Mountains
+4530370	Football Manager 27
 4571290	玄中记
 4678800	Train Sim World® 7
 4682460	G-MODEアーカイブス+ パックマン
@@ -1713,3 +1719,5 @@
 5028210	Granny Horror House
 5189950	Winx Club - Moonlight Quest
 5284960	PISTA Racing PC
+5359820	Bill & Ted's Excellent Adventure Arcade
+5371940	One Must Fall 2097
