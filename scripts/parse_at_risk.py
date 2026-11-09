@@ -20,9 +20,14 @@ CURATOR_URL = (
     "https://store.steampowered.com/curator/31857481"
     "-Games-at-risk-of-removal/"
 )
-# The anonymous store session filters some apps out per store region
-# (region-locked or content-filtered titles), and no single region
-# returns the curator's full list, so query each region once and merge.
+# Hybrid fetching, because neither view is complete on its own:
+# - Anonymous sessions honour the cc parameter (per-region catalogues)
+#   but always exclude content descriptors 3 and 4 (sexual content).
+# - A logged-in session returns the adult content allowed by the
+#   account's store preferences, but ignores cc entirely: its catalogue
+#   is locked to the account's own store country.
+# So fetch the logged-in view once (adult content, account region) plus
+# the anonymous view for each region below (regional coverage), and merge.
 REGIONS = ("ua", "us", "jp")
 # When regions disagree on a game's name, prefer the earlier region here.
 NAME_PRIORITY = ("us", "ua", "jp")
@@ -109,8 +114,12 @@ def verify_login(session: requests.Session) -> None:
         )
 
 
-def fetch_region(session: requests.Session, cc: str) -> dict[str, str]:
-    """Fetch one store region's full recommendation list, page by page."""
+def fetch_region(session: requests.Session, cc: str | None) -> dict[str, str]:
+    """Fetch a full recommendation list, page by page.
+
+    cc=None fetches the session's own view (for a logged-in session that
+    is the account's store country; the cc parameter is ignored then).
+    """
     games: dict[str, str] = {}
     start = 0
     total: int | None = None
@@ -124,7 +133,10 @@ def fetch_region(session: requests.Session, cc: str) -> dict[str, str]:
     return games
 
 
-def _get_page(session: requests.Session, cc: str, start: int) -> dict:
+def _get_page(session: requests.Session, cc: str | None, start: int) -> dict:
+    params: dict[str, object] = {"start": start, "count": PAGE_SIZE}
+    if cc is not None:
+        params["cc"] = cc
     last_exc: Exception | None = None
     for attempt in range(3):
         if attempt:
@@ -132,7 +144,7 @@ def _get_page(session: requests.Session, cc: str, start: int) -> dict:
         try:
             resp = session.get(
                 CURATOR_API,
-                params={"start": start, "count": PAGE_SIZE, "cc": cc},
+                params=params,
                 headers=HEADERS,
                 timeout=60,
             )
@@ -168,17 +180,26 @@ def parse_results_html(html: str) -> dict[str, str]:
 
 
 def fetch_games() -> dict[str, str]:
-    """Fetch all regions and merge them into one {appid: name} dict."""
-    per_region: dict[str, dict[str, str]] = {}
+    """Fetch the logged-in view plus all anonymous regions and merge."""
+    # Logged-in pass: adult content, but locked to the account's region.
     with build_session() as session:
         verify_login(session)
+        logged = fetch_region(session, None)
+    print(f"logged-in view: {len(logged)} apps")
+
+    # Anonymous pass: no adult content, but cc selects each region freely.
+    per_region: dict[str, dict[str, str]] = {}
+    with requests.Session() as anon:
         for cc in REGIONS:
-            per_region[cc] = fetch_region(session, cc)
-            print(f"cc={cc}: {len(per_region[cc])} apps")
-    # Merge in reverse priority order so the preferred region's name wins.
+            per_region[cc] = fetch_region(anon, cc)
+            print(f"anonymous cc={cc}: {len(per_region[cc])} apps")
+
+    # Merge in reverse priority order so the preferred source's name wins:
+    # anonymous regions first (NAME_PRIORITY order), logged-in view last.
     merged: dict[str, str] = {}
     for cc in reversed(NAME_PRIORITY):
         merged.update(per_region[cc])
+    merged.update(logged)
     return merged
 
 
@@ -220,7 +241,7 @@ Automatically tracks apps listed on the [Games at risk of removal]({CURATOR_URL}
 
 Updated every 2 days via GitHub Actions. Last updated: **{now}**
 
-**Source:** Steam curator recommendations, fetched with a logged-in session (adult content enabled in the account's store preferences) and merged from the UA · US · JP store regions (cc=ua/us/jp).
+**Source:** Steam curator recommendations, hybrid fetch: a logged-in session (adult content enabled in the account's store preferences; catalogue locked to the account's store region) merged with anonymous fetches from the UA · US · JP store regions (cc=ua/us/jp) for regional coverage.
 
 **Total tracked:** {len(current)} apps
 
