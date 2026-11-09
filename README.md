@@ -2,11 +2,11 @@
 
 Automatically tracks apps listed on the [Games at risk of removal](https://store.steampowered.com/curator/31857481-Games-at-risk-of-removal/) Steam curator page.
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-11-09 22:21 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-11-09 23:06 UTC**
 
-**Source:** Steam curator recommendations, fetched with a logged-in session (adult content enabled in the account's store preferences) and merged from the UA · US · JP store regions (cc=ua/us/jp).
+**Source:** Steam curator recommendations, hybrid fetch: a logged-in session (adult content enabled in the account's store preferences; catalogue locked to the account's store region) merged with anonymous fetches from the UA · US · JP store regions (cc=ua/us/jp) for regional coverage.
 
-**Total tracked:** 1627 apps
+**Total tracked:** 1678 apps
 
 ---
 
