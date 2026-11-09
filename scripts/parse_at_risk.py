@@ -1,3 +1,4 @@
+import os
 import re
 import sys
 import time
@@ -7,57 +8,178 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://steam-tracker.com/apps/at-risk"
+# Data source: the "Games at risk of removal" Steam curator (clan 31857481),
+# via the same filtered-recommendations endpoint the curator page itself
+# loads on scroll. steam-tracker.com/apps/at-risk (the previous source)
+# has served an empty table since 2026-11-06.
+CURATOR_API = (
+    "https://store.steampowered.com/curator/31857481"
+    "/ajaxgetfilteredrecommendations/"
+)
+CURATOR_URL = (
+    "https://store.steampowered.com/curator/31857481"
+    "-Games-at-risk-of-removal/"
+)
+# The anonymous store session filters some apps out per store region
+# (region-locked or content-filtered titles), and no single region
+# returns the curator's full list, so query each region once and merge.
+REGIONS = ("ua", "us", "jp")
+# When regions disagree on a game's name, prefer the earlier region here.
+NAME_PRIORITY = ("us", "ua", "jp")
+PAGE_SIZE = 100
+PAGE_DELAY = 0.5  # seconds between page requests
+
+# Logged-in fetching: the anonymous store session always excludes content
+# descriptors 3 and 4 (sexual content), so adult-only curator picks are
+# invisible without a login. The session token comes from the repository
+# secret STEAMLOGINSECURE (the steamLoginSecure cookie of an account whose
+# store preferences allow all adult content). STEAMSESSIONID is optional;
+# the store issues a fresh sessionid on its own when it is absent.
+LOGIN_ENV = "STEAMLOGINSECURE"
+SESSION_ENV = "STEAMSESSIONID"
+ACCOUNT_URL = "https://store.steampowered.com/account/"
+
+
+class ConfigError(Exception):
+    """Missing or unusable login configuration; the run must fail loudly."""
 
 ROOT = Path(__file__).parent.parent
 LIST_FILE = ROOT / "games_list.txt"
 README_FILE = ROOT / "README.md"
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept-Language": "en-US,en;q=0.9",
+    "X-Requested-With": "XMLHttpRequest",
+    "Referer": "https://store.steampowered.com/curator/31857481/",
+}
 
-def fetch_games() -> dict[str, str]:
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-        ),
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-    }
+
+def build_session() -> requests.Session:
+    token = os.environ.get(LOGIN_ENV, "").strip()
+    if not token:
+        raise ConfigError(
+            f"{LOGIN_ENV} is not set. Add the steamLoginSecure cookie of an "
+            "account with adult content enabled as a repository secret."
+        )
+    session = requests.Session()
+    session.cookies.set("steamLoginSecure", token, domain="store.steampowered.com")
+    sessionid = os.environ.get(SESSION_ENV, "").strip()
+    if sessionid:
+        session.cookies.set("sessionid", sessionid, domain="store.steampowered.com")
+    return session
+
+
+def verify_login(session: requests.Session) -> None:
+    """Fail loudly if the token is dead or adult content is still filtered.
+
+    Anonymous or expired sessions silently return a list with all adult
+    apps removed, so never let a run proceed on an unverified session.
+    """
+    resp = session.get(ACCOUNT_URL, headers=HEADERS, timeout=60)
+    resp.raise_for_status()
+    if "/login" in resp.url:
+        raise ConfigError(
+            "steamLoginSecure is invalid or expired (redirected to login). "
+            "Refresh the STEAMLOGINSECURE repository secret."
+        )
+
+    page = session.get(CURATOR_URL, headers=HEADERS, timeout=60)
+    page.raise_for_status()
+    m = re.search(
+        r"excluded_content_descriptors(?:\"|&quot;):\[([0-9,]*)\]", page.text
+    )
+    if m:
+        excluded = {int(x) for x in m.group(1).split(",") if x}
+        if excluded & {3, 4}:
+            raise ConfigError(
+                f"Account store preferences still exclude content descriptors "
+                f"{sorted(excluded & {3, 4})}. Enable all adult content "
+                "categories at https://store.steampowered.com/account/preferences"
+            )
+        print(f"Login verified; excluded descriptors: {sorted(excluded) or 'none'}")
+    else:
+        print(
+            "Login verified; descriptor config not found in page, continuing.",
+            file=sys.stderr,
+        )
+
+
+def fetch_region(session: requests.Session, cc: str) -> dict[str, str]:
+    """Fetch one store region's full recommendation list, page by page."""
+    games: dict[str, str] = {}
+    start = 0
+    total: int | None = None
+    while total is None or start < total:
+        data = _get_page(session, cc, start)
+        total = int(data["total_count"])
+        games.update(parse_results_html(data.get("results_html", "")))
+        start += PAGE_SIZE
+        if start < total:
+            time.sleep(PAGE_DELAY)
+    return games
+
+
+def _get_page(session: requests.Session, cc: str, start: int) -> dict:
     last_exc: Exception | None = None
     for attempt in range(3):
         if attempt:
             time.sleep(15 * attempt)
         try:
-            resp = requests.get(URL, headers=headers, timeout=60)
+            resp = session.get(
+                CURATOR_API,
+                params={"start": start, "count": PAGE_SIZE, "cc": cc},
+                headers=HEADERS,
+                timeout=60,
+            )
             resp.raise_for_status()
-            return parse_html(resp.text)
+            data = resp.json()
+            if data.get("success") != 1:
+                raise ValueError(f"API returned success={data.get('success')!r}")
+            return data
         except Exception as exc:
-            print(f"Attempt {attempt + 1} failed: {exc}", file=sys.stderr)
+            print(
+                f"cc={cc} start={start}: attempt {attempt + 1} failed: {exc}",
+                file=sys.stderr,
+            )
             last_exc = exc
     raise last_exc  # type: ignore[misc]
 
 
-def parse_html(html: str) -> dict[str, str]:
+def parse_results_html(html: str) -> dict[str, str]:
     soup = BeautifulSoup(html, "html.parser")
     games: dict[str, str] = {}
-
-    for row in soup.find_all("tr"):
-        tds = row.find_all("td", recursive=False)
-        if len(tds) < 2:
-            continue
-        # AppID is embedded in the first td's link href (e.g. steamdb.info/app/12345/)
-        appid_link = tds[0].find("a", href=True)
-        if not appid_link:
-            continue
-        m = re.search(r"/app/(\d+)/", appid_link["href"])
-        if not m:
-            continue
-        appid = m.group(1)
-        name_link = tds[1].find("a")
-        if name_link:
-            games[appid] = name_link.get_text(strip=True)
-
+    for capsule in soup.select("a.store_capsule[data-ds-appid]"):
+        appid = capsule["data-ds-appid"]
+        img = capsule.find("img", alt=True)
+        name = img["alt"].strip() if img else ""
+        if not name:
+            # Fall back to the app slug in the capsule link.
+            m = re.search(r"/app/\d+/([^/]+)/", capsule.get("href", ""))
+            if m:
+                name = m.group(1).replace("_", " ")
+        if name:
+            games[appid] = name
     return games
+
+
+def fetch_games() -> dict[str, str]:
+    """Fetch all regions and merge them into one {appid: name} dict."""
+    per_region: dict[str, dict[str, str]] = {}
+    with build_session() as session:
+        verify_login(session)
+        for cc in REGIONS:
+            per_region[cc] = fetch_region(session, cc)
+            print(f"cc={cc}: {len(per_region[cc])} apps")
+    # Merge in reverse priority order so the preferred region's name wins.
+    merged: dict[str, str] = {}
+    for cc in reversed(NAME_PRIORITY):
+        merged.update(per_region[cc])
+    return merged
 
 
 def load_previous() -> dict[str, str]:
@@ -94,11 +216,11 @@ def update_readme(current: dict[str, str], new_appids: set[str]) -> None:
     readme = f"""\
 # Steam At-Risk Games Tracker
 
-Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
+Automatically tracks apps listed on the [Games at risk of removal]({CURATOR_URL}) Steam curator page.
 
 Updated every 2 days via GitHub Actions. Last updated: **{now}**
 
-**Filters applied:** Recommended · Released (default page view)
+**Source:** Steam curator recommendations, fetched with a logged-in session (adult content enabled in the account's store preferences) and merged from the UA · US · JP store regions (cc=ua/us/jp).
 
 **Total tracked:** {len(current)} apps
 
@@ -117,16 +239,20 @@ def main() -> None:
     previous = load_previous()
     try:
         current = fetch_games()
+    except ConfigError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        print("Keeping existing data unchanged.", file=sys.stderr)
+        sys.exit(1)
     except Exception as exc:
-        print(f"ERROR fetching page after 3 attempts: {exc}", file=sys.stderr)
+        # Never overwrite the list with partial data: if any region fails,
+        # the merged list would falsely drop that region's exclusive apps.
+        print(f"ERROR fetching curator data after retries: {exc}", file=sys.stderr)
         print("Keeping existing data unchanged.", file=sys.stderr)
         sys.exit(0)
 
     if not current:
-        print("ERROR: parsed 0 games — the page structure may have changed", file=sys.stderr)
+        print("ERROR: parsed 0 games — the API response may have changed", file=sys.stderr)
         sys.exit(1)
-
-
 
     new_appids = set(current) - set(previous)
 

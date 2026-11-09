@@ -26,6 +26,8 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Fetch and parse at-risk apps
+        env:
+          STEAMLOGINSECURE: ${{ secrets.STEAMLOGINSECURE }}
         run: python scripts/parse_at_risk.py
 
       - name: Commit and push changes
