@@ -1,26 +1,35 @@
 # Steam At-Risk Games Tracker
 
-Automatically tracks apps listed on [steam-tracker.com/apps/at-risk](https://steam-tracker.com/apps/at-risk).
+Automatically tracks apps listed on the [Games at risk of removal](https://store.steampowered.com/curator/31857481-Games-at-risk-of-removal/) Steam curator page.
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-11-05 14:35 UTC**
+Updated every 2 days via GitHub Actions. Last updated: **2026-11-09 22:21 UTC**
 
-**Filters applied:** Recommended · Released (default page view)
+**Source:** Steam curator recommendations, fetched with a logged-in session (adult content enabled in the account's store preferences) and merged from the UA · US · JP store regions (cc=ua/us/jp).
 
-**Total tracked:** 1723 apps
+**Total tracked:** 1627 apps
 
 ---
 
 ## Newly Added Since Last Check
 
-- [~Azur Ring~virgin and slave's phylacteries](https://store.steampowered.com/app/880220/) (AppID: 880220)
-- [Tank Royale](https://store.steampowered.com/app/929140/) (AppID: 929140)
-- [~necromancy~Emily's Escape](https://store.steampowered.com/app/975120/) (AppID: 975120)
-- [Summon of asmodeus](https://store.steampowered.com/app/1042170/) (AppID: 1042170)
-- [Silent North](https://store.steampowered.com/app/2440750/) (AppID: 2440750)
-- [Danger Mouse](https://store.steampowered.com/app/3975060/) (AppID: 3975060)
-- [Football Manager 27](https://store.steampowered.com/app/4530370/) (AppID: 4530370)
-- [Bill & Ted's Excellent Adventure Arcade](https://store.steampowered.com/app/5359820/) (AppID: 5359820)
-- [One Must Fall 2097](https://store.steampowered.com/app/5371940/) (AppID: 5371940)
+- [Freestyle 2: Street Basketball](https://store.steampowered.com/app/339610/) (AppID: 339610)
+- [Half-Rats: Parasomnia](https://store.steampowered.com/app/638360/) (AppID: 638360)
+- [Growtopia](https://store.steampowered.com/app/866020/) (AppID: 866020)
+- [Aeon's End](https://store.steampowered.com/app/1063580/) (AppID: 1063580)
+- [In The Search For: Revenge](https://store.steampowered.com/app/1287880/) (AppID: 1287880)
+- [Demon Sighting](https://store.steampowered.com/app/1697310/) (AppID: 1697310)
+- [Evil's Den: Forsaken Dungeon](https://store.steampowered.com/app/1789340/) (AppID: 1789340)
+- [Missile Input](https://store.steampowered.com/app/1871450/) (AppID: 1871450)
+- [Rolling Realms](https://store.steampowered.com/app/2182310/) (AppID: 2182310)
+- [Underwater Cities](https://store.steampowered.com/app/2182320/) (AppID: 2182320)
+- [霜港迷城](https://store.steampowered.com/app/2347080/) (AppID: 2347080)
+- [龍與地下城：長休酒館](https://store.steampowered.com/app/2837690/) (AppID: 2837690)
+- [Whale Captain](https://store.steampowered.com/app/2892110/) (AppID: 2892110)
+- [ChessBoxing Championship](https://store.steampowered.com/app/3897470/) (AppID: 3897470)
+- [Terrinoth®: Heroes of Descent](https://store.steampowered.com/app/3929630/) (AppID: 3929630)
+- [TrollMaker](https://store.steampowered.com/app/4331940/) (AppID: 4331940)
+- [You Are Empty: Absolute Edition](https://store.steampowered.com/app/4760480/) (AppID: 4760480)
+- [Sourcebound](https://store.steampowered.com/app/5324480/) (AppID: 5324480)
 
 ---
 
