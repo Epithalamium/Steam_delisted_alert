@@ -134,7 +134,7 @@
 284050	Sanitarium
 285160	LEGO® The Hobbit™
 285190	Warhammer 40,000: Dawn of War III
-285380	On The Road - The Truck Simulator
+285380	ON THE ROAD - The Truck Simulator
 288860	Realms of Arkania: Star Trail
 289950	Construction Simulator 2015
 290000	DubWars
@@ -439,7 +439,6 @@
 679110	Werewolf: The Apocalypse - Earthblood
 682290	Zeus' Battlegrounds
 684410	Bridge Constructor Portal
-687340	SPYHACK: Episode 1
 690790	DiRT Rally 2.0
 691160	Electronauts - VR Music
 692030	Tennis World Tour
@@ -594,7 +593,6 @@
 923470	MOMO.EXE
 925090	Sharknado VR: Eye of the Storm
 925900	Monica e a Guarda dos Coelhos
-929140	Tank Royale
 930030	Cyber Watch
 930470	Crimson Souls
 930630	The Lost Legends of Redwall™: Escape the Gloomer
@@ -843,7 +841,6 @@
 1282740	CNDL
 1283770	Grey Skies: A War of the Worlds Story
 1287590	Tour de France 2020
-1287880	In The Search For: Revenge
 1290270	Vampire: The Masquerade — Night Road
 1290350	Vampire: The Masquerade — Out for Blood
 1294450	Little Witch Academia: VR Broom Racing
@@ -940,7 +937,6 @@
 1492730	哆啦A夢 牧場物語 自然王國與和樂家人
 1502540	The Sisters - Party of the Year
 1502560	藍精靈：邪惡葉子大作戰
-1504010	Negative: The Way of Shinobi
 1505830	Evil Shogun
 1508270	Doctor Who: The Lonely Assassins
 1508950	Megacraft Hentai Survival
@@ -954,7 +950,6 @@
 1523990	Vampire: The Masquerade — Sins of the Sires
 1530160	Digimon World: Next Order
 1530770	Star Wars™ Pinball VR
-1536790	GIANTESS PLAYGROUND
 1537830	《迪士尼無限飛車》— Disney Speedstorm
 1538010	Shoresy: Legends of the North
 1538550	LEGO® Voyagers
@@ -1182,6 +1177,7 @@
 2097890	Skull Island: Rise of Kong
 2098130	International Basketball Manager 23
 2100160	MotoGP™23
+2104760	The Absolute Destroyer
 2106450	Brave survivors
 2109430	Tron: Identity
 2111630	JR EAST Train Simulator
@@ -1406,7 +1402,6 @@
 2815070	RIDE 6
 2816870	Mighty Morphin Power Rangers: Rita's Rewind
 2821390	HOT WHEELS™ Infinite Rush
-2826570	Singularity Survivors
 2829790	風暴：一段偉大友誼的開始 重製版
 2837690	龍與地下城：長休酒館
 2838950	《權力遊戲：維斯特洛之戰》
@@ -1498,6 +1493,7 @@
 3253030	ダンジョンに出会いを求めるのは間違っているだろうか 水と光のフルランド
 3256150	姆明：冬日尋暖
 3264110	AUTO_BATTLER_RPG
+3268440	SIM SPORTS RAID
 3273550	Dora™：雨林拯救 雨林救援行動
 3275400	PATLABOR the Case Files
 3277530	Aeonic
@@ -1552,7 +1548,6 @@
 3527760	RoboCop: Rogue City - Unfinished Business
 3533730	Warhammer 40,000: Boltgun - Words of Vengeance
 3543170	Animal   Match
-3551340	Football Manager 26
 3556750	Warhammer 40,000: Dawn of War - Definitive Edition
 3569250	The Sequencer
 3588460	Evel Knievel
@@ -1571,7 +1566,7 @@
 3656800	Train Sim World® 6
 3659460	Gear.Club Unlimited 3
 3669430	Twilight Imperium Digital
-3669620	Warhammer Survivors
+3669620	战锤幸存者
 3679080	七大罪：Origin
 3686980	Kniffel® 2 (Yatzi 2)
 3700250	弈戰征途：序章
@@ -1602,7 +1597,6 @@
 3873970	NASCAR 25
 3882430	搖曳露營△ 大家一起嗨翻天！露營大作戰！
 3883590	HeroQuest: Digital Edition
-3897470	ChessBoxing Championship
 3905010	ONE PIECE 海洋盛宴
 3927680	Steel Defence
 3929630	Terrinoth®: Heroes of Descent
@@ -1647,6 +1641,7 @@
 4199910	全軍破敵：戰鎚40000
 4224240	Jujutsu Kaisen Phantom Parade
 4234600	Frontline Frenzy
+4244160	Neopets - Mega Mini Games Collection - The Neopian Arcade Odyssey
 4245200	Warhammer Blood Bowl - The Official Video Game
 4251460	Godzilla: Destroy All Monsters Melee Remastered
 4282500	hololive Dreams
@@ -1662,17 +1657,21 @@
 4445000	Wane’s
 4459850	NAMCO LEGENDARY Mountains
 4530370	《Football Manager 27》
+4581350	Rough Draft
 4678800	Train Sim World® 7
 4699430	The Birth Cry
-4760480	You Are Empty: Absolute Edition
+4769770	ChronoRewind: The Great Ritual
 4782240	超狗神探 : 汪者歸來
 4834760	Pool of Radiance: Ruins of Myth Drannor
 4883590	iRacing® Studios NASCAR 26
 4898790	Crosstalk
 4902580	Jay and Silent Bob's Joint Venture
-5007910	Metro Resonance
+5007910	VANTHRA RESONANCE
 5028210	Granny Horror House
+5088140	幻影線：序章
+5162870	Kibo to Yume
 5189950	Winx Club - Moonlight Quest
 5284960	PISTA Racing PC
 5324480	Sourcebound
 5359820	Bill & Ted's Excellent Adventure Arcade
+5367670	Conan: The Black Pyramid
