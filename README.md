@@ -1,26 +1,29 @@
-# Steam At-Risk Games Tracker
+# Steam 下架风险游戏追踪
 
-Automatically tracks apps listed on the [Games at risk of removal](https://store.steampowered.com/curator/31857481-Games-at-risk-of-removal/) Steam curator page.
+自动追踪 [Games at risk of removal](https://store.steampowered.com/curator/31857481-Games-at-risk-of-removal/) Steam 鉴赏家页面上列出的应用。
 
-Updated every 2 days via GitHub Actions. Last updated: **2026-11-13 15:00 UTC**
+通过 GitHub Actions 每 2 天更新一次。最后更新: **2026-11-17 07:59 UTC**
 
-**Source:** Steam curator recommendations, hybrid fetch: a logged-in session (adult content enabled in the account's store preferences; catalogue locked to the account's store region) merged with anonymous fetches from the UA · US · JP store regions (cc=ua/us/jp) for regional coverage.
+**来源:** Steam 鉴赏家推荐，混合抓取: 一个已登录会话（账号商店偏好已启用成人内容；目录锁定为账号所在商店区域）与 UA · US · JP 商店区域的匿名抓取（cc=ua/us/jp）合并，以实现区域覆盖。
 
-**Total tracked:** 1677 apps
-
----
-
-## Newly Added Since Last Check
-
-- [The Absolute Destroyer](https://store.steampowered.com/app/2104760/) (AppID: 2104760)
-- [SIM SPORTS RAID](https://store.steampowered.com/app/3268440/) (AppID: 3268440)
-- [Neopets - Mega Mini Games Collection - The Neopian Arcade Odyssey](https://store.steampowered.com/app/4244160/) (AppID: 4244160)
-- [Rough Draft](https://store.steampowered.com/app/4581350/) (AppID: 4581350)
-- [ChronoRewind: The Great Ritual](https://store.steampowered.com/app/4769770/) (AppID: 4769770)
-- [幻影線：序章](https://store.steampowered.com/app/5088140/) (AppID: 5088140)
-- [Kibo to Yume](https://store.steampowered.com/app/5162870/) (AppID: 5162870)
-- [Conan: The Black Pyramid](https://store.steampowered.com/app/5367670/) (AppID: 5367670)
+**总计追踪:** 1684 个应用
 
 ---
 
-*For the full list of tracked games, please refer to [games_list.txt](games_list.txt).*
+## 自上次检查以来新增
+
+- [Asylum Revenge](https://store.steampowered.com/app/3084330/) (AppID: 3084330)
+- [PIONER](https://store.steampowered.com/app/3105890/) (AppID: 3105890)
+- [Kleks Academy](https://store.steampowered.com/app/3179870/) (AppID: 3179870)
+- [汪汪隊立大功：恐龍世界](https://store.steampowered.com/app/3525790/) (AppID: 3525790)
+- [Star Trek: Warp](https://store.steampowered.com/app/3874040/) (AppID: 3874040)
+- [Barbie™ Horse Ride & Rescue](https://store.steampowered.com/app/4436840/) (AppID: 4436840)
+- [STAGE TOUR](https://store.steampowered.com/app/4452700/) (AppID: 4452700)
+- [Star Trek: Shadow Frontier](https://store.steampowered.com/app/4744030/) (AppID: 4744030)
+- [藥師少女的獨語 ～真假皇弟～](https://store.steampowered.com/app/4905780/) (AppID: 4905780)
+- [Lucky Luke: The Lonesome Cowboy Collection](https://store.steampowered.com/app/4934830/) (AppID: 4934830)
+- [能力值暴走：生存](https://store.steampowered.com/app/5314690/) (AppID: 5314690)
+
+---
+
+*完整追踪列表请参阅 [games_list.txt](games_list.txt)。*
