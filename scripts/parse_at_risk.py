@@ -2,6 +2,7 @@ import base64
 import json
 import os
 import re
+import secrets
 import sys
 import time
 from datetime import datetime, timezone
@@ -40,10 +41,7 @@ REFRESH_TOKEN_ENV = "STEAM_REFRESH_TOKEN"
 LOGIN_ENV = "STEAMLOGINSECURE"
 SESSION_ENV = "STEAMSESSIONID"
 ACCOUNT_URL = "https://store.steampowered.com/account/"
-TOKEN_REFRESH_API = (
-    "https://api.steampowered.com/IAuthenticationService"
-    "/GenerateAccessTokenForApp/v1/"
-)
+FINALIZE_LOGIN_API = "https://login.steampowered.com/jwt/finalizelogin"
 
 
 class ConfigError(Exception):
@@ -80,70 +78,8 @@ def _decode_jwt_payload(token: str) -> dict:
         raise ConfigError(f"Failed to decode STEAM_REFRESH_TOKEN payload: {exc}") from exc
 
 
-def _encode_varint(value: int) -> bytes:
-    """Encode an integer as a Protobuf base-128 varint."""
-    out = bytearray()
-    while True:
-        byte = value & 0x7F
-        value >>= 7
-        if value:
-            out.append(byte | 0x80)
-        else:
-            out.append(byte)
-            break
-    return bytes(out)
-
-
-def _decode_varint(buf: bytes, pos: int) -> tuple[int, int]:
-    """Decode a Protobuf base-128 varint starting at pos."""
-    result = 0
-    shift = 0
-    while pos < len(buf):
-        b = buf[pos]
-        pos += 1
-        result |= (b & 0x7F) << shift
-        if not (b & 0x80):
-            return result, pos
-        shift += 7
-    raise ValueError("Truncated varint in protobuf response")
-
-
-def _build_refresh_protobuf(refresh_token: str, steam_id: int) -> str:
-    """Build base64-encoded CAuthentication_RefreshToken_GenerateAccessToken_Request."""
-    token_bytes = refresh_token.encode("utf-8")
-    # field 1 (refresh_token): wire type 2 (length-delimited) -> tag (1 << 3) | 2 = 0x0A
-    msg = b"\x0a" + _encode_varint(len(token_bytes)) + token_bytes
-    # field 2 (steamid, fixed64): wire type 1 (64-bit) -> tag (2 << 3) | 1 = 0x11
-    msg += b"\x11" + steam_id.to_bytes(8, "little", signed=False)
-    return base64.b64encode(msg).decode("ascii")
-
-
-def _extract_access_token_from_protobuf(buf: bytes) -> str:
-    """Extract field 1 (access_token) from CAuthentication_RefreshToken_GenerateAccessToken_Response."""
-    pos = 0
-    while pos < len(buf):
-        tag, pos = _decode_varint(buf, pos)
-        field_num = tag >> 3
-        wire_type = tag & 0x07
-        if wire_type == 2:  # length-delimited (string / bytes)
-            length, pos = _decode_varint(buf, pos)
-            val = buf[pos : pos + length]
-            pos += length
-            if field_num == 1:
-                return val.decode("utf-8")
-        elif wire_type == 0:  # varint
-            _, pos = _decode_varint(buf, pos)
-        elif wire_type == 1:  # 64-bit
-            pos += 8
-        elif wire_type == 5:  # 32-bit
-            pos += 4
-        else:
-            raise ValueError(f"Unsupported protobuf wire type: {wire_type}")
-    return ""
-
-
-def mint_steam_login_secure(refresh_token: str) -> str:
-    """Exchange a long-lived Steam refresh_token for a fresh steamLoginSecure cookie."""
+def mint_web_cookies(refresh_token: str) -> tuple[str, str]:
+    """Exchange a Steam refresh_token for (steamLoginSecure, sessionid) via finalizelogin."""
     payload = _decode_jwt_payload(refresh_token)
     steam_id = payload.get("sub")
     if not steam_id:
@@ -155,40 +91,58 @@ def mint_steam_login_secure(refresh_token: str) -> str:
             "STEAM_REFRESH_TOKEN has expired. Generate a new refresh token."
         )
 
-    encoded_proto = _build_refresh_protobuf(refresh_token, int(steam_id))
+    session_id = os.environ.get(SESSION_ENV, "").strip() or secrets.token_hex(12)
 
     try:
         resp = requests.post(
-            TOKEN_REFRESH_API,
-            data={"input_protobuf_encoded": encoded_proto},
+            FINALIZE_LOGIN_API,
+            data={
+                "nonce": refresh_token,
+                "sessionid": session_id,
+                "redir": "https://store.steampowered.com/login/checkstoredlogin/?redirectURL=",
+            },
             headers={
                 "User-Agent": HEADERS["User-Agent"],
-                "Referer": "https://steamcommunity.com/",
-                "Origin": "https://steamcommunity.com",
+                "Accept": "application/json, text/plain, */*",
+                "Origin": "https://store.steampowered.com",
+                "Referer": "https://store.steampowered.com/",
             },
             timeout=30,
         )
-        eresult = resp.headers.get("x-eresult")
         resp.raise_for_status()
+        data = resp.json()
     except Exception as exc:
-        raise ConfigError(f"Failed to exchange refresh_token via Steam API: {exc}") from exc
+        raise ConfigError(f"Failed to exchange refresh_token via finalizelogin: {exc}") from exc
 
-    access_token = _extract_access_token_from_protobuf(resp.content)
-    if not access_token:
-        aud = payload.get("aud", [])
-        raise ConfigError(
-            f"Steam API returned empty access_token (x-eresult={eresult}, token aud={aud}). "
-            "Ensure the token was issued for 'web' (not desktop client) and has not been revoked."
-        )
+    transfer_info = data.get("transfer_info") or []
+    for entry in transfer_info:
+        url = entry.get("url", "")
+        params = entry.get("params") or {}
+        auth_token = params.get("auth")
+        if "store.steampowered.com" in url and auth_token:
+            return f"{steam_id}||{auth_token}", session_id
 
-    return f"{steam_id}||{access_token}"
+    # Fallback: take the first valid auth token if store.steampowered.com entry wasn't matched explicitly
+    for entry in transfer_info:
+        params = entry.get("params") or {}
+        auth_token = params.get("auth")
+        if auth_token:
+            return f"{steam_id}||{auth_token}", session_id
+
+    raise ConfigError(
+        f"Steam finalizelogin did not return transfer auth tokens (response: {data}). "
+        "The refresh_token may have been revoked or requires re-authentication."
+    )
 
 
 def build_session() -> requests.Session:
     refresh_token = os.environ.get(REFRESH_TOKEN_ENV, "").strip()
+    sessionid = os.environ.get(SESSION_ENV, "").strip()
+
     if refresh_token:
         print("Minting fresh steamLoginSecure from STEAM_REFRESH_TOKEN...")
-        token = mint_steam_login_secure(refresh_token)
+        token, minted_sessionid = mint_web_cookies(refresh_token)
+        sessionid = minted_sessionid
     else:
         token = os.environ.get(LOGIN_ENV, "").strip()
 
@@ -200,7 +154,6 @@ def build_session() -> requests.Session:
 
     session = requests.Session()
     session.cookies.set("steamLoginSecure", token, domain="store.steampowered.com")
-    sessionid = os.environ.get(SESSION_ENV, "").strip()
     if sessionid:
         session.cookies.set("sessionid", sessionid, domain="store.steampowered.com")
     return session
