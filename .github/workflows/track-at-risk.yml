@@ -23,11 +23,36 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: |
+          pip install requests beautifulsoup4
+          npm install steam-session
 
-      - name: Fetch and parse at-risk apps
+      - name: Mint steamLoginSecure from Refresh Token
         env:
           STEAM_REFRESH_TOKEN: ${{ secrets.STEAM_REFRESH_TOKEN }}
+        run: |
+          node -e '
+          const { LoginSession, EAuthTokenPlatformType } = require("steam-session");
+          const fs = require("fs");
+          (async () => {
+            try {
+              // 你的 token 含有 client，这里使用 SteamClient 平台加载并通过官方协议换取 Web Cookie
+              const session = new LoginSession(EAuthTokenPlatformType.SteamClient);
+              session.refreshToken = process.env.STEAM_REFRESH_TOKEN.trim();
+              const cookies = await session.getWebCookies();
+              const loginCookie = cookies.find(c => c.startsWith("steamLoginSecure="));
+              if (!loginCookie) throw new Error("No steamLoginSecure in returned cookies");
+              const val = decodeURIComponent(loginCookie.split("=")[1].split(";")[0]);
+              fs.appendFileSync(process.env.GITHUB_ENV, `STEAMLOGINSECURE=${val}\n`);
+              console.log("Successfully minted fresh steamLoginSecure via steam-session!");
+            } catch (err) {
+              console.error("Failed to mint cookie:", err.message);
+              process.exit(1);
+            }
+          })();
+          '
+
+      - name: Fetch and parse at-risk apps
         run: python scripts/parse_at_risk.py
 
       - name: Commit and push changes
