@@ -1,3 +1,5 @@
+import base64
+import json
 import os
 import re
 import sys
@@ -34,19 +36,19 @@ NAME_PRIORITY = ("us", "ua", "jp")
 PAGE_SIZE = 100
 PAGE_DELAY = 0.5  # seconds between page requests
 
-# Logged-in fetching: the anonymous store session always excludes content
-# descriptors 3 and 4 (sexual content), so adult-only curator picks are
-# invisible without a login. The session token comes from the repository
-# secret STEAMLOGINSECURE (the steamLoginSecure cookie of an account whose
-# store preferences allow all adult content). STEAMSESSIONID is optional;
-# the store issues a fresh sessionid on its own when it is absent.
+REFRESH_TOKEN_ENV = "STEAM_REFRESH_TOKEN"
 LOGIN_ENV = "STEAMLOGINSECURE"
 SESSION_ENV = "STEAMSESSIONID"
 ACCOUNT_URL = "https://store.steampowered.com/account/"
+TOKEN_REFRESH_API = (
+    "https://api.steampowered.com/IAuthenticationService"
+    "/GenerateAccessTokenForApp/v1/"
+)
 
 
 class ConfigError(Exception):
     """Missing or unusable login configuration; the run must fail loudly."""
+
 
 ROOT = Path(__file__).parent.parent
 LIST_FILE = ROOT / "games_list.txt"
@@ -64,13 +66,77 @@ HEADERS = {
 }
 
 
+def _decode_jwt_payload(token: str) -> dict:
+    """Decode the payload section of a Steam JWT without external dependencies."""
+    parts = token.split(".")
+    if len(parts) != 3:
+        raise ConfigError("STEAM_REFRESH_TOKEN is not a valid JWT format.")
+    payload_b64 = parts[1]
+    # Restore standard base64 padding
+    payload_b64 += "=" * (-len(payload_b64) % 4)
+    try:
+        raw = base64.urlsafe_b64decode(payload_b64)
+        return json.loads(raw.decode("utf-8"))
+    except Exception as exc:
+        raise ConfigError(f"Failed to decode STEAM_REFRESH_TOKEN payload: {exc}") from exc
+
+
+def mint_steam_login_secure(refresh_token: str) -> str:
+    """Exchange a long-lived Steam refresh_token for a fresh steamLoginSecure cookie."""
+    payload = _decode_jwt_payload(refresh_token)
+    steam_id = payload.get("sub")
+    if not steam_id:
+        raise ConfigError("STEAM_REFRESH_TOKEN payload is missing 'sub' (SteamID).")
+
+    exp = payload.get("exp")
+    if exp and time.time() > exp:
+        raise ConfigError(
+            "STEAM_REFRESH_TOKEN has expired. Generate a new refresh token."
+        )
+
+    try:
+        resp = requests.post(
+            TOKEN_REFRESH_API,
+            data={
+                "refresh_token": refresh_token,
+                "steamid": steam_id,
+            },
+            headers={
+                "User-Agent": HEADERS["User-Agent"],
+                "Referer": "https://steamcommunity.com/",
+                "Origin": "https://steamcommunity.com",
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as exc:
+        raise ConfigError(f"Failed to exchange refresh_token via Steam API: {exc}") from exc
+
+    access_token = data.get("response", {}).get("access_token")
+    if not access_token:
+        raise ConfigError(
+            f"Steam API did not return an access_token (response: {data}). "
+            "The refresh_token may have been revoked."
+        )
+
+    return f"{steam_id}||{access_token}"
+
+
 def build_session() -> requests.Session:
-    token = os.environ.get(LOGIN_ENV, "").strip()
+    refresh_token = os.environ.get(REFRESH_TOKEN_ENV, "").strip()
+    if refresh_token:
+        print("Minting fresh steamLoginSecure from STEAM_REFRESH_TOKEN...")
+        token = mint_steam_login_secure(refresh_token)
+    else:
+        token = os.environ.get(LOGIN_ENV, "").strip()
+
     if not token:
         raise ConfigError(
-            f"{LOGIN_ENV} is not set. Add the steamLoginSecure cookie of an "
-            "account with adult content enabled as a repository secret."
+            f"Neither {REFRESH_TOKEN_ENV} nor {LOGIN_ENV} is set. "
+            "Add a valid Steam refresh_token as a repository secret."
         )
+
     session = requests.Session()
     session.cookies.set("steamLoginSecure", token, domain="store.steampowered.com")
     sessionid = os.environ.get(SESSION_ENV, "").strip()
@@ -90,7 +156,7 @@ def verify_login(session: requests.Session) -> None:
     if "/login" in resp.url:
         raise ConfigError(
             "steamLoginSecure is invalid or expired (redirected to login). "
-            "Refresh the STEAMLOGINSECURE repository secret."
+            "Check your STEAM_REFRESH_TOKEN repository secret."
         )
 
     page = session.get(CURATOR_URL, headers=HEADERS, timeout=60)
