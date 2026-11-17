@@ -72,13 +72,74 @@ def _decode_jwt_payload(token: str) -> dict:
     if len(parts) != 3:
         raise ConfigError("STEAM_REFRESH_TOKEN is not a valid JWT format.")
     payload_b64 = parts[1]
-    # Restore standard base64 padding
     payload_b64 += "=" * (-len(payload_b64) % 4)
     try:
         raw = base64.urlsafe_b64decode(payload_b64)
         return json.loads(raw.decode("utf-8"))
     except Exception as exc:
         raise ConfigError(f"Failed to decode STEAM_REFRESH_TOKEN payload: {exc}") from exc
+
+
+def _encode_varint(value: int) -> bytes:
+    """Encode an integer as a Protobuf base-128 varint."""
+    out = bytearray()
+    while True:
+        byte = value & 0x7F
+        value >>= 7
+        if value:
+            out.append(byte | 0x80)
+        else:
+            out.append(byte)
+            break
+    return bytes(out)
+
+
+def _decode_varint(buf: bytes, pos: int) -> tuple[int, int]:
+    """Decode a Protobuf base-128 varint starting at pos."""
+    result = 0
+    shift = 0
+    while pos < len(buf):
+        b = buf[pos]
+        pos += 1
+        result |= (b & 0x7F) << shift
+        if not (b & 0x80):
+            return result, pos
+        shift += 7
+    raise ValueError("Truncated varint in protobuf response")
+
+
+def _build_refresh_protobuf(refresh_token: str, steam_id: int) -> str:
+    """Build base64-encoded CAuthentication_RefreshToken_GenerateAccessToken_Request."""
+    token_bytes = refresh_token.encode("utf-8")
+    # field 1 (refresh_token): wire type 2 (length-delimited) -> tag (1 << 3) | 2 = 0x0A
+    msg = b"\x0a" + _encode_varint(len(token_bytes)) + token_bytes
+    # field 2 (steamid, fixed64): wire type 1 (64-bit) -> tag (2 << 3) | 1 = 0x11
+    msg += b"\x11" + steam_id.to_bytes(8, "little", signed=False)
+    return base64.b64encode(msg).decode("ascii")
+
+
+def _extract_access_token_from_protobuf(buf: bytes) -> str:
+    """Extract field 1 (access_token) from CAuthentication_RefreshToken_GenerateAccessToken_Response."""
+    pos = 0
+    while pos < len(buf):
+        tag, pos = _decode_varint(buf, pos)
+        field_num = tag >> 3
+        wire_type = tag & 0x07
+        if wire_type == 2:  # length-delimited (string / bytes)
+            length, pos = _decode_varint(buf, pos)
+            val = buf[pos : pos + length]
+            pos += length
+            if field_num == 1:
+                return val.decode("utf-8")
+        elif wire_type == 0:  # varint
+            _, pos = _decode_varint(buf, pos)
+        elif wire_type == 1:  # 64-bit
+            pos += 8
+        elif wire_type == 5:  # 32-bit
+            pos += 4
+        else:
+            raise ValueError(f"Unsupported protobuf wire type: {wire_type}")
+    return ""
 
 
 def mint_steam_login_secure(refresh_token: str) -> str:
@@ -94,13 +155,12 @@ def mint_steam_login_secure(refresh_token: str) -> str:
             "STEAM_REFRESH_TOKEN has expired. Generate a new refresh token."
         )
 
+    encoded_proto = _build_refresh_protobuf(refresh_token, int(steam_id))
+
     try:
         resp = requests.post(
             TOKEN_REFRESH_API,
-            data={
-                "refresh_token": refresh_token,
-                "steamid": steam_id,
-            },
+            data={"input_protobuf_encoded": encoded_proto},
             headers={
                 "User-Agent": HEADERS["User-Agent"],
                 "Referer": "https://steamcommunity.com/",
@@ -108,16 +168,17 @@ def mint_steam_login_secure(refresh_token: str) -> str:
             },
             timeout=30,
         )
+        eresult = resp.headers.get("x-eresult")
         resp.raise_for_status()
-        data = resp.json()
     except Exception as exc:
         raise ConfigError(f"Failed to exchange refresh_token via Steam API: {exc}") from exc
 
-    access_token = data.get("response", {}).get("access_token")
+    access_token = _extract_access_token_from_protobuf(resp.content)
     if not access_token:
+        aud = payload.get("aud", [])
         raise ConfigError(
-            f"Steam API did not return an access_token (response: {data}). "
-            "The refresh_token may have been revoked."
+            f"Steam API returned empty access_token (x-eresult={eresult}, token aud={aud}). "
+            "Ensure the token was issued for 'web' (not desktop client) and has not been revoked."
         )
 
     return f"{steam_id}||{access_token}"
