@@ -221,6 +221,7 @@
 388060	The Escapists: The Walking Dead
 388960	Torn Tales
 389470	Call of Cthulhu: Shadow of the Comet
+390340	Umbrella Corps
 390520	PewDiePie: Legend of the Brofist
 399810	Call of Cthulhu®
 400800	MXGP2 - The Official Motocross Videogame
@@ -1234,6 +1235,7 @@
 2264340	TIEBREAK – GRAND SLAM EDITION
 2269330	AmazeVR Megan Thee Stallion VR Concert
 2273430	蒼翼：混沌效應
+2276840	Quiz Quest
 2282650	Holiday Party: Mascot Brawl
 2287000	NINJA KIDZ: TIME MASTERS
 2288080	貓貓迷宮記~禁忌的魔族法典~
@@ -1269,6 +1271,7 @@
 2363530	Kemono Friends Opening Day
 2363930	Evil is Back
 2364540	Invaders
+2366530	Flashpoint Campaigns: Southern Storm
 2371630	刀劍神域 關鍵鬥士
 2373990	我獨自升級：ARISE OVERDRIVE
 2374090	Asterix & Obelix: Heroes
@@ -1477,7 +1480,6 @@
 3169520	Warhammer 40,000: Space Marine - Master Crafted Edition
 3179870	Kleks Academy
 3180240	Tetris® Forever
-3181160	Late Emergency
 3183970	GEX Trilogy
 3185460	Fap&Click
 3189010	The Mansion of The Macabre
@@ -1635,7 +1637,6 @@
 4111390	Nickelodeon Extreme Tennis: Next!
 4124830	Hasbro Games™ Junior 系列
 4128400	eBaseball™: PRO SPIRIT
-4128590	Call of Girls
 4155290	Nomadoss Chronicles
 4162160	新盗墓笔记（南派三叔正版授权）
 4162630	MINOS: Home A-Labyrinth
@@ -1669,6 +1670,7 @@
 4769770	ChronoRewind: The Great Ritual
 4782240	超狗神探 : 汪者歸來
 4834760	Pool of Radiance: Ruins of Myth Drannor
+4847830	Living With Dad - Family Party
 4883590	iRacing® Studios NASCAR 26
 4898790	Crosstalk
 4902580	Jay and Silent Bob's Joint Venture
@@ -1677,6 +1679,7 @@
 5028210	Granny Horror House
 5162870	Kibo to Yume
 5189950	Winx Club - Moonlight Quest
+5194220	Brixonia
 5284960	PISTA Racing PC
 5314690	能力值暴走：生存
 5324480	Sourcebound
