@@ -2,7 +2,6 @@ name: Track Steam At-Risk Apps
 
 on:
   schedule:
-    # Run every 2 days at 06:17 UTC
     - cron: '17 6 */2 * *'
   workflow_dispatch:
 
