@@ -335,7 +335,6 @@
 544730	Catan Universe
 544920	Darwin Project
 546050	Puyo Puyo™Tetris®
-548280	NeonBall
 552500	Warhammer: Vermintide 2
 554570	Witanlore: Dreamtime
 556180	Mysterium: A Psychic Clue Game
@@ -885,6 +884,7 @@
 1377890	Professor Rubik’s Brain Fitness
 1383960	Nickelodeon Kart Racers 2: Grand Prix
 1386870	Wraith: The Oblivion - Afterlife
+1393210	Dashie's Puh-ranormal Activity
 1398910	Jorel’s Brother and The Most Important Game of the Galaxy - Complete Edition
 1399840	VVV戦機少女
 1401590	迪士尼夢光谷
@@ -1271,7 +1271,6 @@
 2363530	Kemono Friends Opening Day
 2363930	Evil is Back
 2364540	Invaders
-2366530	Flashpoint Campaigns: Southern Storm
 2371630	刀劍神域 關鍵鬥士
 2373990	我獨自升級：ARISE OVERDRIVE
 2374090	Asterix & Obelix: Heroes
@@ -1431,6 +1430,7 @@
 2929170	NEW MONOPOLY®
 2930290	Love at The Milky Way Diner
 2933130	The Lord of the Rings: Return to Moria™
+2934150	史莱姆糯米 / Slime Nomi
 2934180	哆啦A夢的銅鑼燒店物語 (Doraemon Dorayaki Shop Story)
 2936310	The Walking Dead: No Man's Land
 2958130	侏羅紀世界：進化 3
@@ -1461,12 +1461,10 @@
 3077390	MotoGP™25
 3080510	Goosebumps: Terror in Little Creek
 3082770	BombMaze
-3084330	Asylum Revenge
 3096560	The Little UNI
 3101600	Planetary Conflict: 2301
 3101920	Empire: Sound of the North
 3105440	魔法門之英雄無敵：上古紀元 Heroes of Might and Magic: Olden Era
-3105890	PIONER
 3112730	超狗神探：《不狗能的任務》
 3115130	NBA BOUNCE
 3115160	Warhammer 40,000: Boltgun 2
@@ -1483,6 +1481,8 @@
 3183970	GEX Trilogy
 3185460	Fap&Click
 3189010	The Mansion of The Macabre
+3197860	Infinite Idle: Online Clicker RPG
+3202980	Z Diaries
 3210120	The Elf on the Shelf®: 聖誕節英雄
 3212580	Bratz® 的韻律與風格
 3213300	DUST II | The Infinite Zero Point
@@ -1497,7 +1497,6 @@
 3253030	ダンジョンに出会いを求めるのは間違っているだろうか 水と光のフルランド
 3256150	姆明：冬日尋暖
 3264110	AUTO_BATTLER_RPG
-3268440	SIM SPORTS RAID
 3273550	Dora™：雨林拯救 雨林救援行動
 3275400	PATLABOR the Case Files
 3277530	Aeonic
@@ -1512,6 +1511,8 @@
 3327640	hololive Holo's花牌
 3328180	Snoopy & The Great Mystery Club
 3328480	TETRIS® THE GRAND MASTER 4 -ABSOLUTE EYE-
+3329000	Finger Fury Clicker
+3329020	Cookie Monster Clicker
 3339970	WendyQuest: Legend of the Four Corner Stones
 3344960	夏目友人帳 ～葉月之記～
 3352750	Kings of Emperor Bonaparte
@@ -1581,7 +1582,7 @@
 3727390	The Expanse: Osiris Reborn
 3735230	Samurai Academy: Paws of Fury
 3743790	Thomas & Friends™: Wonders of Sodor
-3744100	It’s Quiz Time: GUINNESS WORLD RECORDS™ 2026 Edition
+3744100	It’s Quiz Time: GUINNESS WORLD RECORDS™ 2027 Edition
 3744110	What Do You Meme?® The Video Game
 3746290	Werewolf: The Apocalypse – Rageborn
 3749580	He-Man and the Masters of the Universe™: Dragon Pearl of Destruction
@@ -1603,6 +1604,7 @@
 3874040	Star Trek: Warp
 3882430	搖曳露營△ 大家一起嗨翻天！露營大作戰！
 3883590	HeroQuest: Digital Edition
+3901990	Apoclone
 3905010	ONE PIECE 海洋盛宴
 3927680	Steel Defence
 3929630	Terrinoth®: Heroes of Descent
@@ -1659,10 +1661,10 @@
 4420730	GACHIAKUTA: BREAKOUT
 4434610	Hunter: The Reckoning – Deathwish
 4436840	Barbie™ Horse Ride & Rescue
-4445000	Wane’s
 4452700	STAGE TOUR
 4459850	NAMCO LEGENDARY Mountains
 4530370	《Football Manager 27》
+4543030	Exploiters
 4581350	Rough Draft
 4678800	Train Sim World® 7
 4699430	The Birth Cry
@@ -1681,7 +1683,6 @@
 5189950	Winx Club - Moonlight Quest
 5194220	Brixonia
 5284960	PISTA Racing PC
-5314690	能力值暴走：生存
 5324480	Sourcebound
 5359820	Bill & Ted's Excellent Adventure Arcade
 5367670	Conan: The Black Pyramid
