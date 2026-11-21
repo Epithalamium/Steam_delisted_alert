@@ -273,6 +273,7 @@
 458770	WRC 6 FIA World Rally Championship
 460920	Steep™
 464850	Don Bradman Cricket 17
+465540	Adventure World
 465660	Franchise Hockey Manager 3
 466300	Planescape: Torment: Enhanced Edition
 468920	終極釣魚模擬器
@@ -540,7 +541,6 @@
 853200	Shred! 2 - ft Sam Pilgrim
 857680	Catan VR
 857940	Nature Calls
-858080	Spoorky
 861650	Session: Skate Sim
 864550	Radiant One
 866020	Growtopia
@@ -1235,7 +1235,6 @@
 2264340	TIEBREAK – GRAND SLAM EDITION
 2269330	AmazeVR Megan Thee Stallion VR Concert
 2273430	蒼翼：混沌效應
-2276840	Quiz Quest
 2282650	Holiday Party: Mascot Brawl
 2287000	NINJA KIDZ: TIME MASTERS
 2288080	貓貓迷宮記~禁忌的魔族法典~
@@ -1356,6 +1355,7 @@
 2591280	F1® Manager 2024
 2591710	加勒比海盜：戰爭之潮
 2596330	Micro Machines: Mini Challenge Mayhem
+2598120	The Cauldron Kids: The Summoning of Mr. Vermicelli
 2602020	The Smurfs – Dreams
 2605780	奇謀三國
 2617340	Terminator: Survivors
@@ -1430,7 +1430,6 @@
 2929170	NEW MONOPOLY®
 2930290	Love at The Milky Way Diner
 2933130	The Lord of the Rings: Return to Moria™
-2934150	史莱姆糯米 / Slime Nomi
 2934180	哆啦A夢的銅鑼燒店物語 (Doraemon Dorayaki Shop Story)
 2936310	The Walking Dead: No Man's Land
 2958130	侏羅紀世界：進化 3
@@ -1481,8 +1480,6 @@
 3183970	GEX Trilogy
 3185460	Fap&Click
 3189010	The Mansion of The Macabre
-3197860	Infinite Idle: Online Clicker RPG
-3202980	Z Diaries
 3210120	The Elf on the Shelf®: 聖誕節英雄
 3212580	Bratz® 的韻律與風格
 3213300	DUST II | The Infinite Zero Point
@@ -1511,8 +1508,6 @@
 3327640	hololive Holo's花牌
 3328180	Snoopy & The Great Mystery Club
 3328480	TETRIS® THE GRAND MASTER 4 -ABSOLUTE EYE-
-3329000	Finger Fury Clicker
-3329020	Cookie Monster Clicker
 3339970	WendyQuest: Legend of the Four Corner Stones
 3344960	夏目友人帳 ～葉月之記～
 3352750	Kings of Emperor Bonaparte
@@ -1553,6 +1548,7 @@
 3525790	汪汪隊立大功：恐龍世界
 3527760	RoboCop: Rogue City - Unfinished Business
 3533730	Warhammer 40,000: Boltgun - Words of Vengeance
+3540720	Dopdop Online
 3543170	Animal   Match
 3556750	Warhammer 40,000: Dawn of War - Definitive Edition
 3569250	The Sequencer
@@ -1572,7 +1568,7 @@
 3656800	Train Sim World® 6
 3659460	Gear.Club Unlimited 3
 3669430	Twilight Imperium Digital
-3669620	战锤幸存者
+3669620	戰鎚倖存者
 3679080	七大罪：Origin
 3686980	Kniffel® 2 (Yatzi 2)
 3700250	弈戰征途：序章
@@ -1664,7 +1660,6 @@
 4452700	STAGE TOUR
 4459850	NAMCO LEGENDARY Mountains
 4530370	《Football Manager 27》
-4543030	Exploiters
 4581350	Rough Draft
 4678800	Train Sim World® 7
 4699430	The Birth Cry
