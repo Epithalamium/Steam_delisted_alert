@@ -955,6 +955,7 @@
 1538010	Shoresy: Legends of the North
 1538550	LEGO® Voyagers
 1542790	SRX: The Game
+1543990	Project Blue Book: Hidden Mysteries
 1548520	暗夜絕望
 1549970	Aliens: Fireteam Elite
 1551360	Forza Horizon 5
@@ -1040,6 +1041,7 @@
 1742020	Idol Showdown
 1748610	Evil God Korone
 1753220	ANIME TETRIS
+1753730	The 8 Sins: New Hell Order
 1753900	World of Motors
 1759780	Mr. Manacle Octo Games
 1761390	初音未來 Project DIVA MEGA39’s＋
@@ -1051,6 +1053,7 @@
 1776170	Barton Lynch Pro Surfing
 1778210	King Boo
 1778890	The Wrath Of The Erlik
+1779950	Goo Keeper
 1782150	OVERLORD: ESCAPE FROM NAZARICK
 1785270	L.O.L. Surprise! B.B.s BORN TO TRAVEL™
 1785650	《職業網球大聯盟2K25》
@@ -1375,7 +1378,6 @@
 2667020	Moorhuhn Invasion - Crazy Chicken Invasion
 2676410	Miraculous - Paris Under Siege
 2677660	《印第安納瓊斯：古老之圈》
-2689920	WarSpawn
 2697000	The Legend of Khiimori
 2698450	Taskmaster VR
 2698940	《飆酷車神：動力慶典》
@@ -1603,7 +1605,6 @@
 3874040	Star Trek: Warp
 3882430	搖曳露營△ 大家一起嗨翻天！露營大作戰！
 3883590	HeroQuest: Digital Edition
-3901990	Apoclone
 3905010	ONE PIECE 海洋盛宴
 3927680	Steel Defence
 3929630	Terrinoth®: Heroes of Descent
@@ -1629,12 +1630,14 @@
 4042460	Tanks: 1985
 4049170	Disney•Pixar Toy Story: Retro Roundup!
 4049180	Disney•Pixar Toy Story 3 Complete Edition
+4052980	Aion - Part 1: Return to Palace
 4056590	Arthur's Math Games
 4056600	Arthur's Preschool
 4056610	Arthur's Reading Games
 4056630	Harry and the Haunted House
 4078430	星際大戰：銀河賽車手™
 4080810	Construction Simulator 4 - Pocket Edition
+4082030	Barbie™ Rewind
 4111390	Nickelodeon Extreme Tennis: Next!
 4124830	Hasbro Games™ Junior 系列
 4128400	eBaseball™: PRO SPIRIT
@@ -1648,7 +1651,7 @@
 4224240	Jujutsu Kaisen Phantom Parade
 4234600	Frontline Frenzy
 4244160	Neopets - Mega Mini Games Collection - The Neopian Arcade Odyssey
-4245200	Warhammer Blood Bowl - The Official Video Game
+4245200	Warhammer Blood Bowl
 4251460	Godzilla: Destroy All Monsters Melee Remastered
 4282500	hololive Dreams
 4304060	SONIC PICO PARK
@@ -1658,13 +1661,13 @@
 4356430	《NBA 2K27》
 4375120	地獄楽 パラダイスバトル
 4420730	GACHIAKUTA: BREAKOUT
+4424740	Agent of Strange: Arrival
 4434610	Hunter: The Reckoning – Deathwish
 4436840	Barbie™ Horse Ride & Rescue
 4452700	STAGE TOUR
 4459850	NAMCO LEGENDARY Mountains
 4463520	姆明：瘋狂夏日
 4530370	《Football Manager 27》
-4581350	Rough Draft
 4678800	Train Sim World® 7
 4699430	The Birth Cry
 4744030	Star Trek: Shadow Frontier
