@@ -840,6 +840,7 @@
 1282150	海綿寶寶 : The Cosmic Shake
 1282740	CNDL
 1283770	Grey Skies: A War of the Worlds Story
+1286320	Exoprimal
 1287590	Tour de France 2020
 1290270	Vampire: The Masquerade — Night Road
 1290350	Vampire: The Masquerade — Out for Blood
@@ -956,7 +957,6 @@
 1538550	LEGO® Voyagers
 1542790	SRX: The Game
 1543990	Project Blue Book: Hidden Mysteries
-1548520	暗夜絕望
 1549970	Aliens: Fireteam Elite
 1551360	Forza Horizon 5
 1551980	Clive Barker's Hellraiser: Revival
@@ -1053,7 +1053,6 @@
 1776170	Barton Lynch Pro Surfing
 1778210	King Boo
 1778890	The Wrath Of The Erlik
-1779950	Goo Keeper
 1782150	OVERLORD: ESCAPE FROM NAZARICK
 1785270	L.O.L. Surprise! B.B.s BORN TO TRAVEL™
 1785650	《職業網球大聯盟2K25》
@@ -1671,6 +1670,7 @@
 4678800	Train Sim World® 7
 4699430	The Birth Cry
 4744030	Star Trek: Shadow Frontier
+4760480	You Are Empty: Absolute Edition
 4769770	ChronoRewind: The Great Ritual
 4782240	超狗神探 : 汪者歸來
 4834760	Pool of Radiance: Ruins of Myth Drannor

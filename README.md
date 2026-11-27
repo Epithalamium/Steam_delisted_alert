@@ -2,7 +2,7 @@
 
 自動追蹤 [Games at risk of removal](https://store.steampowered.com/curator/31857481-Games-at-risk-of-removal/) Steam 鑑賞家頁面上列出的應用程式。
 
-透過 GitHub Actions 每 2 天更新一次。最後更新: **2026-11-25 17:10 UTC**
+透過 GitHub Actions 每 2 天更新一次。最後更新: **2026-11-27 16:37 UTC**
 
 **來源:** Steam 鑑賞家推薦，混合抓取: 一個已登入工作階段（帳號商店偏好已啟用成人內容；目錄鎖定為帳號所在商店區域）與 UA · US · JP 商店區域的匿名抓取（cc=ua/us/jp）合併，以實現區域覆蓋。
 
@@ -12,12 +12,8 @@
 
 ## 自上次檢查以來新增
 
-- [Project Blue Book: Hidden Mysteries](https://store.steampowered.com/app/1543990/) (AppID: 1543990)
-- [The 8 Sins: New Hell Order](https://store.steampowered.com/app/1753730/) (AppID: 1753730)
-- [Goo Keeper](https://store.steampowered.com/app/1779950/) (AppID: 1779950)
-- [Aion - Part 1: Return to Palace](https://store.steampowered.com/app/4052980/) (AppID: 4052980)
-- [Barbie™ Rewind](https://store.steampowered.com/app/4082030/) (AppID: 4082030)
-- [Agent of Strange: Arrival](https://store.steampowered.com/app/4424740/) (AppID: 4424740)
+- [Exoprimal](https://store.steampowered.com/app/1286320/) (AppID: 1286320)
+- [You Are Empty: Absolute Edition](https://store.steampowered.com/app/4760480/) (AppID: 4760480)
 
 ---
 
